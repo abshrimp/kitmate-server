@@ -14,7 +14,7 @@ import type { CancellationFeed, CancellationNotice, LectureNotice } from '../typ
 //   7. 残りのフォームを自動送信 ×2                              → ポータルセッション確立
 //   8. lecture_cancellation / lecture_information の表をスクレイプ
 //
-// 認証情報は環境変数 KIT_USER_ID / KIT_PASSWORD で渡す (未設定なら呼び出し側でフォールバック)。
+// 認証情報は環境変数 KIT_USER_ID / KIT_PASSWORD で渡す (未設定/失敗時はエラーを伝播。フォールバックなし)。
 
 const VPN_HOST = process.env.KIT_VPN_HOST ?? 'vpns.cis.kit.ac.jp';
 const PORTAL_HOST = 'portal.student.kit.ac.jp';

@@ -91,22 +91,19 @@ exit                      # 一度ログアウトしてグループを反映
 
 ## 4. デプロイ
 
-### 4-1. コードを配置
+このサーバは GitHub で管理している(https://github.com/abshrimp/kitmate-server)。
+VM 上で clone し、更新は `git pull` で取り込む。
 
-git で管理しているなら VM 上で clone(推奨):
-
-```bash
-git clone <このリポジトリの URL> ~/kitmate3
-cd ~/kitmate3/server
-```
-
-または手元から `server/` を転送(ローカルのターミナルで実行):
+### 4-1. コードを clone
 
 ```bash
-gcloud compute scp --recurse --zone=us-west1-b \
-  ./server kitmate-server:~/server
-# node_modules / data/kitmate.db は転送不要
+sudo apt-get update && sudo apt-get install -y git
+git clone https://github.com/abshrimp/kitmate-server.git ~/kitmate-server
+cd ~/kitmate-server
 ```
+
+> private リポジトリの場合は、デプロイキー(読み取り専用 SSH 鍵)を登録して
+> `git clone git@github.com:abshrimp/kitmate-server.git` を使う。
 
 ### 4-2. 認証情報を設定
 
@@ -117,7 +114,7 @@ nano .env        # KIT_USER_ID / KIT_PASSWORD を入力(他は任意)
 
 | 変数 | 説明 |
 |---|---|
-| `KIT_USER_ID` | 休講取得用の学籍番号(未設定なら ebii.net フォールバック) |
+| `KIT_USER_ID` | 休講取得用の学籍番号(**必須**。未設定だと休講取得はエラー) |
 | `KIT_PASSWORD` | そのパスワード |
 | `VAPID_SUBJECT` | web-push の VAPID subject(任意, 既定 `mailto:tools@kitmate.jp`) |
 | `PUSH_DISABLED` | `1` で休講 push(1 分毎ウォッチャ)を無効化 |
@@ -135,11 +132,23 @@ docker compose logs -f
 SQLite と VAPID 鍵は `./data`(= VM ディスク)に残るため、再起動・再デプロイでも消えない。
 `restart: unless-stopped` により VM 再起動後も自動復帰する。
 
+### 4-4. 更新(再デプロイ)
+
+GitHub に push した変更を VM に反映する:
+
+```bash
+cd ~/kitmate-server
+git pull
+docker compose up -d --build
+```
+
+`.env` と `data/`(DB)は git 管理外なので `git pull` で上書きされない。
+
 ---
 
 ## 5. (推奨) HTTPS 化 — Caddy で自動 TLS
 
-ドメイン(例 `api.kitmate.jp`)の A レコードを VM の外部 IP に向けてから、`server/Caddyfile` を作成:
+ドメイン(例 `api.kitmate.jp`)の A レコードを VM の外部 IP に向けてから、リポジトリ直下に `Caddyfile` を作成:
 
 ```
 api.kitmate.jp {
