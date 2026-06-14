@@ -182,18 +182,20 @@ interface ParsedForm {
 }
 
 // 最初の <form> を取り出し、action と <input name=...> の値を集める。
+// 属性値の HTML エンティティはデコードする (IdP の action は `&#x2f;` 等で
+// エンコードされていることがあり、生のままだと不正な URL になる)。BeautifulSoup と同等。
 function parseFirstForm(html: string): ParsedForm | null {
   const formMatch = html.match(/<form\b[\s\S]*?<\/form>/i);
   if (!formMatch) return null;
   const form = formMatch[0];
   const openTag = form.match(/<form\b[^>]*>/i)?.[0] ?? '';
-  const action = getAttr(openTag, 'action') ?? '';
+  const action = decodeEntities(getAttr(openTag, 'action') ?? '');
 
   const inputs: Record<string, string> = {};
   for (const tag of form.match(/<input\b[^>]*>/gi) ?? []) {
     const name = getAttr(tag, 'name');
     if (!name) continue;
-    inputs[name] = getAttr(tag, 'value') ?? '';
+    inputs[decodeEntities(name)] = decodeEntities(getAttr(tag, 'value') ?? '');
   }
   return { action, inputs };
 }
