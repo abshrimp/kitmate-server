@@ -146,54 +146,61 @@ docker compose up -d --build
 
 ---
 
-## 5. (推奨) HTTPS 化 — Caddy で自動 TLS
+## 5. HTTPS 化 — Cloudflare + Caddy
 
-`Caddyfile` と `docker-compose.yml` の caddy サービス(`profiles: https`)はリポジトリに
-同梱済み。Caddy が Let's Encrypt 証明書を自動取得・更新する。
+`Caddyfile` と `docker-compose.yml` の caddy サービス(`profiles: https`)は同梱済み。
+オリジン IP を隠す/DDoS 対策のため **Cloudflare プロキシ(オレンジ雲)の背後**で運用する。
 
-### 5-1. DNS を設定
-
-使うドメイン(例 `api.kitmate.jp`)の **A レコードを VM の外部 IP に向ける**。
-外部 IP は次で確認:
-
-```bash
-gcloud compute instances describe kitmate-server --zone=us-west1-b \
-  --format='get(networkInterfaces[0].accessConfigs[0].natIP)'
+```
+クライアント ──HTTPS(CFエッジ証明書)──> Cloudflare ──HTTPS(自己署名)──> Caddy ─> kitmate-server
 ```
 
-反映確認(VM 内 or 手元): `dig +short api.kitmate.jp` が VM の IP を返せば OK。
+### 5-1. Cloudflare DNS
 
-### 5-2. ファイアウォール(80/443 を開ける)
+- `api.kitmate.jp` の A レコードを **VM の外部 IP** に向け、**Proxied(オレンジ雲)** にする。
+- VM の外部 IP:
+  ```bash
+  gcloud compute instances describe kitmate-server --zone=us-west1-b \
+    --format='get(networkInterfaces[0].accessConfigs[0].natIP)'
+  ```
 
-VM 作成時の `--tags=http-server,https-server` で default ネットワークなら 80/443 は
-既に開いていることが多い。未設定なら:
+### 5-2. Cloudflare SSL/TLS モード
+
+ダッシュボード → SSL/TLS → Overview → 暗号化モードを **Full** にする。
+
+- ❌ **Flexible** は不可(Caddy の HTTP→HTTPS リダイレクトとループする)
+- ❌ **Full (strict)** は不可(オリジンが自己署名のため)。strict にしたいなら
+  Cloudflare Origin Certificate を発行して Caddy に `tls cert.pem key.pem` で渡す
+
+### 5-3. ファイアウォール
+
+443 を開ける(VM 作成時の `https-server` タグで開いていることが多い)。未設定なら:
 
 ```bash
 gcloud compute firewall-rules create allow-https \
-  --allow=tcp:80,tcp:443 --target-tags=https-server --source-ranges=0.0.0.0/0
+  --allow=tcp:443 --target-tags=https-server --source-ranges=0.0.0.0/0
 ```
 
-HTTPS のみ公開する場合、§2 で開けた 8787 のルールは削除してよい:
+> さらに堅くするなら、443 の `--source-ranges` を Cloudflare の IP 範囲
+> (https://www.cloudflare.com/ips/)に限定するとオリジンへの直アクセスを遮断できる。
+> 直アクセスを廃止するなら §2 の 8787 ルールも削除: `gcloud compute firewall-rules delete allow-kitmate`
 
-```bash
-gcloud compute firewall-rules delete allow-kitmate
-```
-
-### 5-3. ドメインを書き換えて起動
+### 5-4. 起動
 
 ```bash
 cd ~/kitmate-server
+git pull
 nano Caddyfile        # `api.kitmate.jp` を自分のドメインに変更
 docker compose --profile https up -d --build
 docker compose logs -f caddy
 ```
 
 - `--profile https` を付けると caddy も起動する(付けないと従来どおりサーバのみ)。
-- 初回は証明書取得で十数秒かかる。`certificate obtained successfully` 等が出れば成功。
+- `tls internal` なので Let's Encrypt は使わず、ACME のログは出ない。
 - `https://<ドメイン>/api/health` が `{ "ok": true }` を返せば完了。
 - 以後の更新も `docker compose --profile https up -d --build`(`--profile` を毎回付ける)。
 
-### 5-4. アプリ側の向き先を変更
+### 5-5. アプリ側の向き先を変更
 
 `app/app.json` の `expo.extra.apiBaseUrl` を `https://api.kitmate.jp` に変更してビルドし直す
 (別リポジトリ `kitmate-app`)。`-c` でキャッシュクリア推奨。

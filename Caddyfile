@@ -1,17 +1,18 @@
-# Caddy リバースプロキシ設定。HTTPS (Let's Encrypt 証明書) を自動取得・更新する。
-# docker compose の caddy サービス (profiles: https) から読み込まれる。
+# Caddy リバースプロキシ設定。docker compose の caddy サービス (profiles: https) が読み込む。
 #
-# 使う前に:
-#   1. 下のドメインを自分のものに変更する (DNS A レコードを VM の外部 IP に向けておく)
-#   2. `docker compose --profile https up -d`
-
-{
-	# 証明書の期限通知などに使う連絡先 (任意だが推奨)
-	email tools@kitmate.jp
-}
+# 現在は Cloudflare プロキシ(オレンジ雲)の背後で運用する構成:
+#   - Caddy はオリジンで自己署名証明書 (tls internal) を使う
+#   - Cloudflare の SSL/TLS モードを「Full」にする (Flexible / Full(strict) は不可)
+#   → クライアント↔CF(エッジ証明書) と CF↔オリジン(この自己署名) の両区間を暗号化し、
+#     オリジン IP は Cloudflare に隠蔽される
+#
+# Cloudflare を使わず VM を直接公開する場合は `tls internal` の行を削除すると、
+# Caddy が Let's Encrypt 証明書を自動取得する (DNS を VM の IP に直接向けること)。
 
 # ← 自分のドメインに変更する
 api.kitmate.jp {
+	tls internal
+
 	# 同じ compose ネットワーク上の kitmate-server コンテナへ中継
 	reverse_proxy kitmate-server:8787
 }
