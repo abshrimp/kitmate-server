@@ -62,6 +62,7 @@ export const timetableEntrySchema = z.object({
   custom: customCourseSchema.optional(),
   classLabel: z.string().max(100).optional(),
   color: z.string().max(50).optional(),
+  excludeFromCredits: z.boolean().optional(),
 });
 
 export const sharedTimetableSchema = z.object({

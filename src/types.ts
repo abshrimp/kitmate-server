@@ -112,6 +112,7 @@ export interface TimetableEntry {
   custom?: CustomCourse;       // オリジナル講義 (courseId と排他)
   classLabel?: string;
   color?: string;              // セル色 (任意)
+  excludeFromCredits?: boolean; // 要件計算から除外 (任意)
 }
 export interface SharedTimetable {
   version: 1;
