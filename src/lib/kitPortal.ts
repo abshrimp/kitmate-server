@@ -1,3 +1,4 @@
+import https from 'node:https';
 import type { CancellationFeed, CancellationNotice, LectureNotice } from '../types.js';
 
 // KIT ポータル (portal.student.kit.ac.jp) から休講通知・授業関連連絡を直接スクレイプする。
@@ -35,9 +36,8 @@ export function hasPortalCredentials(): boolean {
 class CookieJar {
   private jar = new Map<string, string>();
 
-  setFromResponse(res: Response): void {
-    const cookies = res.headers.getSetCookie?.() ?? [];
-    for (const raw of cookies) {
+  setFromResponse(setCookie: string[] | undefined): void {
+    for (const raw of setCookie ?? []) {
       const pair = raw.split(';', 1)[0]?.trim();
       if (!pair) continue;
       const eq = pair.indexOf('=');
@@ -54,14 +54,71 @@ class CookieJar {
   }
 }
 
+interface RawResponse {
+  status: number;
+  headers: Record<string, string | string[] | undefined>;
+  body: string;
+}
+
+// 低レベル HTTP リクエスト。グローバル fetch (undici) は厳格な HTTP パーサを持ち、
+// Fortinet SSL-VPN が返す非準拠なチャンク転送 (チャンクサイズに余分な空白等) を
+// HPE_INVALID_CHUNK_SIZE で拒否する。Node の https モジュールは per-request の
+// insecureHTTPParser: true で寛容に解釈できる (Python requests と同等の挙動)。
+function rawRequest(
+  method: string,
+  urlStr: string,
+  headers: Record<string, string>,
+  body?: string,
+): Promise<RawResponse> {
+  return new Promise((resolve, reject) => {
+    const u = new URL(urlStr);
+    const reqHeaders: Record<string, string> = {
+      'accept-encoding': 'identity', // gzip を要求しない (自前で解凍しないため)
+      ...headers,
+    };
+    if (body !== undefined) reqHeaders['content-length'] = String(Buffer.byteLength(body));
+
+    const req = https.request(
+      {
+        method,
+        hostname: u.hostname,
+        port: u.port || 443,
+        path: u.pathname + u.search,
+        headers: reqHeaders,
+        insecureHTTPParser: true,
+        timeout: TIMEOUT_MS,
+      },
+      (res) => {
+        const chunks: Buffer[] = [];
+        res.on('data', (c: Buffer) => chunks.push(c));
+        res.on('end', () =>
+          resolve({
+            status: res.statusCode ?? 0,
+            headers: res.headers,
+            body: Buffer.concat(chunks).toString('utf8'),
+          }),
+        );
+      },
+    );
+    req.on('error', reject);
+    req.on('timeout', () => req.destroy(new Error('[kitPortal] request timeout')));
+    if (body !== undefined) req.write(body);
+    req.end();
+  });
+}
+
+function headerString(v: string | string[] | undefined): string | undefined {
+  return Array.isArray(v) ? v[0] : v;
+}
+
 interface HopResult {
   status: number;
   text: string;
   url: string; // 最終 URL (リダイレクト追跡後)。相対 action の解決に使う
 }
 
-// リダイレクトを手動で追跡しつつ Cookie jar を更新する fetch ラッパ。
-// undici の fetch は Cookie を自動で永続化しないため、各ホップで明示的に付与する。
+// リダイレクトを手動で追跡しつつ Cookie jar を更新する HTTP ラッパ。
+// Cookie は各ホップで明示的に付与する。
 async function fetchFollow(
   jar: CookieJar,
   startUrl: string,
@@ -74,17 +131,11 @@ async function fetchFollow(
 
   for (let i = 0; i <= MAX_REDIRECTS; i++) {
     const cookie = jar.header();
-    const res = await fetch(url, {
-      method,
-      headers: cookie ? { ...headers, cookie } : headers,
-      body,
-      redirect: 'manual',
-      signal: AbortSignal.timeout(TIMEOUT_MS),
-    });
-    jar.setFromResponse(res);
+    const res = await rawRequest(method, url, cookie ? { ...headers, cookie } : headers, body);
+    jar.setFromResponse(res.headers['set-cookie'] as string[] | undefined);
 
     if (res.status >= 300 && res.status < 400) {
-      const loc = res.headers.get('location');
+      const loc = headerString(res.headers['location']);
       if (loc) {
         url = new URL(loc, url).toString();
         // 3xx 後は GET に切り替え (302/303 相当)。body と content-type は破棄。
@@ -95,8 +146,7 @@ async function fetchFollow(
         continue;
       }
     }
-    const text = await res.text();
-    return { status: res.status, text, url };
+    return { status: res.status, text: res.body, url };
   }
   throw new Error('[kitPortal] too many redirects');
 }
