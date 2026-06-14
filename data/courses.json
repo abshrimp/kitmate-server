@@ -1,0 +1,4914 @@
+[
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": true,
+    "attributes": "実務経験のある教員による科目、PBL 実施科目",
+    "id": "10119903",
+    "subjectNumber": "10160130",
+    "name": "発達心理学",
+    "instructors": [
+      "上條 史絵"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [],
+    "credits": 2,
+    "classFormat": "講義",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      },
+      "2025": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      }
+    },
+    "syllabus": {
+      "outline": "人間の発達の概要と各時期に獲得するべき能力・課題・問題について説明する。胎児期から老年期までの生涯発達の視点に立ち、各発達段階の特徴を心理学の知見に基づいて概観するとともに、発達障害や思春期の課題など現代的なトピックについても扱う。",
+      "grading": "小レポート30%、試験70%で評価する。小レポートは各回の講義内容の理解度を確認するものであり、試験は講義全体の到達目標の達成度を評価する。",
+      "goal": "人生の各時期における発達課題や問題について、説明できる。",
+      "outOfClassStudy": "各回の講義前に指定された資料を読み、講義後はノートを整理して理解を深めること。",
+      "plan": [
+        {
+          "round": 1,
+          "topic": "オリエンテーション 発達心理学とは",
+          "pre": "シラバスを読み、講義全体の構成を確認しておくこと。",
+          "post": "講義ノートを整理し、オリエンテーション 発達心理学とはの要点をまとめること。"
+        },
+        {
+          "round": 2,
+          "topic": "胎児期、乳児期の発達",
+          "pre": "配付資料の「胎児期、乳児期の発達」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、胎児期、乳児期の発達の要点をまとめること。"
+        },
+        {
+          "round": 3,
+          "topic": "乳児期・幼児期① 愛着の発達",
+          "pre": "配付資料の「乳児期・幼児期① 愛着の発達」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、乳児期・幼児期① 愛着の発達の要点をまとめること。"
+        },
+        {
+          "round": 4,
+          "topic": "乳児期・幼児期② 運動・認知の発達",
+          "pre": "配付資料の「乳児期・幼児期② 運動・認知の発達」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、乳児期・幼児期② 運動・認知の発達の要点をまとめること。"
+        },
+        {
+          "round": 5,
+          "topic": "乳児期・幼児期③ 情緒と社会性の発達",
+          "pre": "配付資料の「乳児期・幼児期③ 情緒と社会性の発達」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、乳児期・幼児期③ 情緒と社会性の発達の要点をまとめること。"
+        },
+        {
+          "round": 6,
+          "topic": "非定型発達と発達障害",
+          "pre": "配付資料の「非定型発達と発達障害」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、非定型発達と発達障害の要点をまとめること。"
+        },
+        {
+          "round": 7,
+          "topic": "子どもへの支援と援助",
+          "pre": "配付資料の「子どもへの支援と援助」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、子どもへの支援と援助の要点をまとめること。"
+        },
+        {
+          "round": 8,
+          "topic": "児童期の発達",
+          "pre": "配付資料の「児童期の発達」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、児童期の発達の要点をまとめること。"
+        },
+        {
+          "round": 9,
+          "topic": "思春期・青年期① アイデンティティ",
+          "pre": "配付資料の「思春期・青年期① アイデンティティ」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、思春期・青年期① アイデンティティの要点をまとめること。"
+        },
+        {
+          "round": 10,
+          "topic": "思春期・青年期② 対人関係・社会とのかかわり",
+          "pre": "配付資料の「思春期・青年期② 対人関係・社会とのかかわり」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、思春期・青年期② 対人関係・社会とのかかわりの要点をまとめること。"
+        },
+        {
+          "round": 11,
+          "topic": "思春期・青年期に生じる課題",
+          "pre": "配付資料の「思春期・青年期に生じる課題」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、思春期・青年期に生じる課題の要点をまとめること。"
+        },
+        {
+          "round": 12,
+          "topic": "成人期の発達① 自立と就労",
+          "pre": "配付資料の「成人期の発達① 自立と就労」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、成人期の発達① 自立と就労の要点をまとめること。"
+        },
+        {
+          "round": 13,
+          "topic": "成人期の発達② パートナーシップ・家族",
+          "pre": "配付資料の「成人期の発達② パートナーシップ・家族」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、成人期の発達② パートナーシップ・家族の要点をまとめること。"
+        },
+        {
+          "round": 14,
+          "topic": "壮年期・老年期の発達",
+          "pre": "配付資料の「壮年期・老年期の発達」に関する箇所を読んでおくこと。",
+          "post": "講義ノートを整理し、壮年期・老年期の発達の要点をまとめること。"
+        },
+        {
+          "round": 15,
+          "topic": "まとめ",
+          "pre": "配付資料の「まとめ」に関する箇所を読んでおくこと。",
+          "post": "講義全体を振り返り、試験に向けて要点を整理すること。"
+        }
+      ],
+      "materials": "教科書は使用しない。毎回資料を配付する。参考書は講義中に適宜紹介する。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10014305",
+    "subjectNumber": "10061605",
+    "name": "Interactive English A",
+    "instructors": [
+      "ホゼア ベーカー"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 3
+      }
+    ],
+    "credits": 1,
+    "classFormat": "演習",
+    "room": "0323講義室",
+    "classLabel": "1クラス",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "english",
+        "bio-tech": "english",
+        "chem-A": "english",
+        "chem-A-tech": "english",
+        "chem-B": "english",
+        "chem-B-tech": "english",
+        "chem-C": "english",
+        "chem-C-tech": "english",
+        "chem-D": "english",
+        "chem-D-tech": "english",
+        "elec": "english",
+        "elec-tech": "english",
+        "info": "english",
+        "info-tech": "english",
+        "mech": "english",
+        "mech-tech": "english",
+        "da-design": "english",
+        "da-design-tech": "english",
+        "da-architecture": "english",
+        "da-architecture-tech": "english"
+      },
+      "2025": {
+        "bio": "english",
+        "bio-tech": "english",
+        "chem-A": "english",
+        "chem-A-tech": "english",
+        "chem-B": "english",
+        "chem-B-tech": "english",
+        "chem-C": "english",
+        "chem-C-tech": "english",
+        "chem-D": "english",
+        "chem-D-tech": "english",
+        "elec": "english",
+        "elec-tech": "english",
+        "info": "english",
+        "info-tech": "english",
+        "mech": "english",
+        "mech-tech": "english",
+        "da-design": "english",
+        "da-design-tech": "english",
+        "da-architecture": "english",
+        "da-architecture-tech": "english"
+      }
+    },
+    "syllabus": {
+      "outline": "This course develops the four English skills (reading, writing, listening and speaking) in an integrated way. Students practice extensive reading, essay writing and oral presentations, and learn to share knowledge and opinions actively in English.",
+      "goal": "Students will be able to express their own ideas in clear written and spoken English, give short presentations, and respond appropriately to other speakers.",
+      "grading": "Class participation 30%, writing assignments and presentations 40%, review tasks and final consolidation 30%.",
+      "plan": [
+        {
+          "round": 1,
+          "topic": "Orientation",
+          "pre": "Read the course syllabus before the first class.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 2,
+          "topic": "Extensive reading",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 3,
+          "topic": "Extensive reading",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 4,
+          "topic": "Introduction to essay writing",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 5,
+          "topic": "Oral presentations",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 6,
+          "topic": "Process writing",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 7,
+          "topic": "Presentations",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 8,
+          "topic": "Sharing knowledge and opinions",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 9,
+          "topic": "Sharing knowledge and responding to the speaker",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 10,
+          "topic": "Critical thinking skills",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 11,
+          "topic": "Oral presentations",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 12,
+          "topic": "Writing workshop",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 13,
+          "topic": "Presentations",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 14,
+          "topic": "Review",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 15,
+          "topic": "Review and consolidation",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        }
+      ],
+      "materials": "Handouts will be provided in class. A graded reader list will be introduced in the orientation."
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10014306",
+    "subjectNumber": "10061605",
+    "name": "Interactive English A",
+    "instructors": [
+      "デイビッド リース"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 3
+      }
+    ],
+    "credits": 1,
+    "classFormat": "演習",
+    "room": "K201",
+    "classLabel": "2クラス",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "english",
+        "bio-tech": "english",
+        "chem-A": "english",
+        "chem-A-tech": "english",
+        "chem-B": "english",
+        "chem-B-tech": "english",
+        "chem-C": "english",
+        "chem-C-tech": "english",
+        "chem-D": "english",
+        "chem-D-tech": "english",
+        "elec": "english",
+        "elec-tech": "english",
+        "info": "english",
+        "info-tech": "english",
+        "mech": "english",
+        "mech-tech": "english",
+        "da-design": "english",
+        "da-design-tech": "english",
+        "da-architecture": "english",
+        "da-architecture-tech": "english"
+      },
+      "2025": {
+        "bio": "english",
+        "bio-tech": "english",
+        "chem-A": "english",
+        "chem-A-tech": "english",
+        "chem-B": "english",
+        "chem-B-tech": "english",
+        "chem-C": "english",
+        "chem-C-tech": "english",
+        "chem-D": "english",
+        "chem-D-tech": "english",
+        "elec": "english",
+        "elec-tech": "english",
+        "info": "english",
+        "info-tech": "english",
+        "mech": "english",
+        "mech-tech": "english",
+        "da-design": "english",
+        "da-design-tech": "english",
+        "da-architecture": "english",
+        "da-architecture-tech": "english"
+      }
+    },
+    "syllabus": {
+      "outline": "This course develops the four English skills (reading, writing, listening and speaking) in an integrated way. Students practice extensive reading, essay writing and oral presentations, and learn to share knowledge and opinions actively in English.",
+      "goal": "Students will be able to express their own ideas in clear written and spoken English, give short presentations, and respond appropriately to other speakers.",
+      "grading": "Class participation 30%, writing assignments and presentations 40%, review tasks and final consolidation 30%.",
+      "plan": [
+        {
+          "round": 1,
+          "topic": "Orientation",
+          "pre": "Read the course syllabus before the first class.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 2,
+          "topic": "Extensive reading",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 3,
+          "topic": "Extensive reading",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 4,
+          "topic": "Introduction to essay writing",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 5,
+          "topic": "Oral presentations",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 6,
+          "topic": "Process writing",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 7,
+          "topic": "Presentations",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 8,
+          "topic": "Sharing knowledge and opinions",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 9,
+          "topic": "Sharing knowledge and responding to the speaker",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 10,
+          "topic": "Critical thinking skills",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 11,
+          "topic": "Oral presentations",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 12,
+          "topic": "Writing workshop",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 13,
+          "topic": "Presentations",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 14,
+          "topic": "Review",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        },
+        {
+          "round": 15,
+          "topic": "Review and consolidation",
+          "pre": "Prepare the assigned reading and vocabulary.",
+          "post": "Review the class activities and complete the related writing or speaking tasks."
+        }
+      ],
+      "materials": "Handouts will be provided in class. A graded reader list will be introduced in the orientation."
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10014405",
+    "subjectNumber": "10061705",
+    "name": "Interactive English B",
+    "instructors": [
+      "ホゼア ベーカー"
+    ],
+    "targetGrade": 1,
+    "term": "second",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 3
+      }
+    ],
+    "credits": 1,
+    "classFormat": "演習",
+    "room": "0323講義室",
+    "classLabel": "1クラス",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "english",
+        "bio-tech": "english",
+        "chem-A": "english",
+        "chem-A-tech": "english",
+        "chem-B": "english",
+        "chem-B-tech": "english",
+        "chem-C": "english",
+        "chem-C-tech": "english",
+        "chem-D": "english",
+        "chem-D-tech": "english",
+        "elec": "english",
+        "elec-tech": "english",
+        "info": "english",
+        "info-tech": "english",
+        "mech": "english",
+        "mech-tech": "english",
+        "da-design": "english",
+        "da-design-tech": "english",
+        "da-architecture": "english",
+        "da-architecture-tech": "english"
+      },
+      "2025": {
+        "bio": "english",
+        "bio-tech": "english",
+        "chem-A": "english",
+        "chem-A-tech": "english",
+        "chem-B": "english",
+        "chem-B-tech": "english",
+        "chem-C": "english",
+        "chem-C-tech": "english",
+        "chem-D": "english",
+        "chem-D-tech": "english",
+        "elec": "english",
+        "elec-tech": "english",
+        "info": "english",
+        "info-tech": "english",
+        "mech": "english",
+        "mech-tech": "english",
+        "da-design": "english",
+        "da-design-tech": "english",
+        "da-architecture": "english",
+        "da-architecture-tech": "english"
+      }
+    },
+    "syllabus": {
+      "outline": "A continuation of Interactive English A. Students further develop integrated English skills through discussions, presentations and process writing.",
+      "goal": "Students will be able to take part in discussions and give well-organized presentations in English."
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10014505",
+    "subjectNumber": "10061805",
+    "name": "Academic Reading A",
+    "instructors": [
+      "サラ コリンズ"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 2
+      }
+    ],
+    "credits": 1,
+    "classFormat": "演習",
+    "room": "西4-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "english",
+        "bio-tech": "english",
+        "chem-A": "english",
+        "chem-A-tech": "english",
+        "chem-B": "english",
+        "chem-B-tech": "english",
+        "chem-C": "english",
+        "chem-C-tech": "english",
+        "chem-D": "english",
+        "chem-D-tech": "english",
+        "elec": "english",
+        "elec-tech": "english",
+        "info": "english",
+        "info-tech": "english",
+        "mech": "english",
+        "mech-tech": "english",
+        "da-design": "english",
+        "da-design-tech": "english",
+        "da-architecture": "english",
+        "da-architecture-tech": "english"
+      },
+      "2025": {
+        "bio": "english",
+        "bio-tech": "english",
+        "chem-A": "english",
+        "chem-A-tech": "english",
+        "chem-B": "english",
+        "chem-B-tech": "english",
+        "chem-C": "english",
+        "chem-C-tech": "english",
+        "chem-D": "english",
+        "chem-D-tech": "english",
+        "elec": "english",
+        "elec-tech": "english",
+        "info": "english",
+        "info-tech": "english",
+        "mech": "english",
+        "mech-tech": "english",
+        "da-design": "english",
+        "da-design-tech": "english",
+        "da-architecture": "english",
+        "da-architecture-tech": "english"
+      }
+    },
+    "syllabus": {
+      "outline": "Students learn reading strategies for academic texts, including skimming, scanning and summarizing, using materials related to science and engineering.",
+      "goal": "Students will be able to read academic English texts efficiently and summarize their main points."
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10014605",
+    "subjectNumber": "10061905",
+    "name": "Academic Writing A",
+    "instructors": [
+      "マーク テイラー"
+    ],
+    "targetGrade": 2,
+    "term": "second",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 1
+      }
+    ],
+    "credits": 1,
+    "classFormat": "演習",
+    "room": "西4-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "english",
+        "bio-tech": "english",
+        "chem-A": "english",
+        "chem-A-tech": "english",
+        "chem-B": "english",
+        "chem-B-tech": "english",
+        "chem-C": "english",
+        "chem-C-tech": "english",
+        "chem-D": "english",
+        "chem-D-tech": "english",
+        "elec": "english",
+        "elec-tech": "english",
+        "info": "english",
+        "info-tech": "english",
+        "mech": "english",
+        "mech-tech": "english",
+        "da-design": "english",
+        "da-design-tech": "english",
+        "da-architecture": "english",
+        "da-architecture-tech": "english"
+      },
+      "2025": {
+        "bio": "english",
+        "bio-tech": "english",
+        "chem-A": "english",
+        "chem-A-tech": "english",
+        "chem-B": "english",
+        "chem-B-tech": "english",
+        "chem-C": "english",
+        "chem-C-tech": "english",
+        "chem-D": "english",
+        "chem-D-tech": "english",
+        "elec": "english",
+        "elec-tech": "english",
+        "info": "english",
+        "info-tech": "english",
+        "mech": "english",
+        "mech-tech": "english",
+        "da-design": "english",
+        "da-design-tech": "english",
+        "da-architecture": "english",
+        "da-architecture-tech": "english"
+      }
+    },
+    "syllabus": {
+      "outline": "This course introduces the structure of academic paragraphs and essays. Students practice drafting, peer review and revision.",
+      "goal": "Students will be able to write a coherent academic essay with an appropriate structure."
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10119101",
+    "subjectNumber": "10160210",
+    "name": "経済学",
+    "instructors": [
+      "西村 達也"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 1
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "60周年記念館1F",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      },
+      "2025": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      }
+    },
+    "syllabus": {
+      "outline": "ミクロ経済学・マクロ経済学の基礎概念を学び、市場メカニズムと経済政策の考え方を理解する。",
+      "goal": "需要と供給、国民所得、金融政策など経済学の基本概念を用いて身近な経済現象を説明できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10119205",
+    "subjectNumber": "10160310",
+    "name": "教育原論",
+    "instructors": [
+      "高橋 美咲"
+    ],
+    "targetGrade": 1,
+    "term": "second",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "1-322",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      },
+      "2025": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      }
+    },
+    "syllabus": {
+      "outline": "教育の理念・歴史・思想を概観し、現代の教育課題を考察する。",
+      "goal": "教育の基本的な理念と歴史的変遷を説明し、現代の教育課題について自分の意見を述べることができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10119311",
+    "subjectNumber": "10160411",
+    "name": "人と自然と数学αⅡ",
+    "instructors": [
+      "藤井 健一"
+    ],
+    "targetGrade": 1,
+    "term": "2Q",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 4
+      }
+    ],
+    "credits": 1,
+    "classFormat": "講義",
+    "room": "1-322",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      },
+      "2025": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      }
+    },
+    "syllabus": {
+      "outline": "自然現象や社会の中に現れる数学的構造を題材に、数学の考え方と面白さを学ぶ。",
+      "goal": "身の回りの現象を数学的な視点で捉え、その構造を説明できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10119420",
+    "subjectNumber": "10160520",
+    "name": "哲学概論",
+    "instructors": [
+      "岡本 玲子"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 4
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "6-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      },
+      "2025": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      }
+    },
+    "syllabus": {
+      "outline": "古代から現代までの哲学の主要なテーマ(存在・知識・倫理)を概観し、批判的に考える力を養う。",
+      "goal": "哲学の基本的な問いと主要な立場を説明し、自らの考えを論理的に述べることができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10119530",
+    "subjectNumber": "10160630",
+    "name": "日本の歴史と文化",
+    "instructors": [
+      "中田 浩二"
+    ],
+    "targetGrade": 1,
+    "term": "second",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "6-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      },
+      "2025": {
+        "bio": "liberal_foundation",
+        "bio-tech": "liberal_foundation",
+        "chem-A": "liberal_foundation",
+        "chem-A-tech": "liberal_foundation",
+        "chem-B": "liberal_foundation",
+        "chem-B-tech": "liberal_foundation",
+        "chem-C": "liberal_foundation",
+        "chem-C-tech": "liberal_foundation",
+        "chem-D": "liberal_foundation",
+        "chem-D-tech": "liberal_foundation",
+        "elec": "liberal_foundation",
+        "elec-tech": "liberal_foundation",
+        "info": "liberal_foundation",
+        "info-tech": "liberal_foundation",
+        "mech": "liberal_foundation",
+        "mech-tech": "liberal_foundation",
+        "da-design": "liberal_foundation",
+        "da-design-tech": "liberal_foundation",
+        "da-architecture": "liberal_foundation",
+        "da-architecture-tech": "liberal_foundation"
+      }
+    },
+    "syllabus": {
+      "outline": "京都を中心とした日本の歴史と伝統文化を、工芸・建築・生活文化の視点から学ぶ。",
+      "goal": "日本の歴史的・文化的事象を時代背景とともに説明できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": "実務経験のある教員による科目",
+    "id": "10129110",
+    "subjectNumber": "10170110",
+    "name": "キャリアデザイン基礎",
+    "instructors": [
+      "石川 直樹"
+    ],
+    "targetGrade": 1,
+    "term": "second",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 5
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "15-202",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_practical",
+        "bio-tech": "liberal_practical",
+        "chem-A": "liberal_practical",
+        "chem-A-tech": "liberal_practical",
+        "chem-B": "liberal_practical",
+        "chem-B-tech": "liberal_practical",
+        "chem-C": "liberal_practical",
+        "chem-C-tech": "liberal_practical",
+        "chem-D": "liberal_practical",
+        "chem-D-tech": "liberal_practical",
+        "elec": "liberal_practical",
+        "elec-tech": "liberal_practical",
+        "info": "liberal_practical",
+        "info-tech": "liberal_practical",
+        "mech": "liberal_practical",
+        "mech-tech": "liberal_practical",
+        "da-design": "liberal_practical",
+        "da-design-tech": "liberal_practical",
+        "da-architecture": "liberal_practical",
+        "da-architecture-tech": "liberal_practical"
+      },
+      "2025": {
+        "bio": "liberal_practical",
+        "bio-tech": "liberal_practical",
+        "chem-A": "liberal_practical",
+        "chem-A-tech": "liberal_practical",
+        "chem-B": "liberal_practical",
+        "chem-B-tech": "liberal_practical",
+        "chem-C": "liberal_practical",
+        "chem-C-tech": "liberal_practical",
+        "chem-D": "liberal_practical",
+        "chem-D-tech": "liberal_practical",
+        "elec": "liberal_practical",
+        "elec-tech": "liberal_practical",
+        "info": "liberal_practical",
+        "info-tech": "liberal_practical",
+        "mech": "liberal_practical",
+        "mech-tech": "liberal_practical",
+        "da-design": "liberal_practical",
+        "da-design-tech": "liberal_practical",
+        "da-architecture": "liberal_practical",
+        "da-architecture-tech": "liberal_practical"
+      }
+    },
+    "syllabus": {
+      "outline": "自己分析・業界研究・キャリアプランニングの手法を学び、大学での学びと将来のキャリアを接続する。",
+      "goal": "自らの強みと関心を整理し、具体的なキャリアプランを描くことができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": "PBL 実施科目",
+    "id": "10129220",
+    "subjectNumber": "10170220",
+    "name": "グローバルリーダーシップ演習",
+    "instructors": [
+      "松本 沙織"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 5
+      }
+    ],
+    "credits": 2,
+    "classFormat": "演習",
+    "room": "15-202",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_practical",
+        "bio-tech": "liberal_practical",
+        "chem-A": "liberal_practical",
+        "chem-A-tech": "liberal_practical",
+        "chem-B": "liberal_practical",
+        "chem-B-tech": "liberal_practical",
+        "chem-C": "liberal_practical",
+        "chem-C-tech": "liberal_practical",
+        "chem-D": "liberal_practical",
+        "chem-D-tech": "liberal_practical",
+        "elec": "liberal_practical",
+        "elec-tech": "liberal_practical",
+        "info": "liberal_practical",
+        "info-tech": "liberal_practical",
+        "mech": "liberal_practical",
+        "mech-tech": "liberal_practical",
+        "da-design": "liberal_practical",
+        "da-design-tech": "liberal_practical",
+        "da-architecture": "liberal_practical",
+        "da-architecture-tech": "liberal_practical"
+      },
+      "2025": {
+        "bio": "liberal_practical",
+        "bio-tech": "liberal_practical",
+        "chem-A": "liberal_practical",
+        "chem-A-tech": "liberal_practical",
+        "chem-B": "liberal_practical",
+        "chem-B-tech": "liberal_practical",
+        "chem-C": "liberal_practical",
+        "chem-C-tech": "liberal_practical",
+        "chem-D": "liberal_practical",
+        "chem-D-tech": "liberal_practical",
+        "elec": "liberal_practical",
+        "elec-tech": "liberal_practical",
+        "info": "liberal_practical",
+        "info-tech": "liberal_practical",
+        "mech": "liberal_practical",
+        "mech-tech": "liberal_practical",
+        "da-design": "liberal_practical",
+        "da-design-tech": "liberal_practical",
+        "da-architecture": "liberal_practical",
+        "da-architecture-tech": "liberal_practical"
+      }
+    },
+    "syllabus": {
+      "outline": "多文化チームでのプロジェクト演習を通じて、リーダーシップとコミュニケーションのスキルを実践的に学ぶ。",
+      "goal": "チームの中で役割を理解し、合意形成を主導できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": true,
+    "attributes": "実務経験のある教員による科目",
+    "id": "10129330",
+    "subjectNumber": "10170330",
+    "name": "学外実習(インターンシップ)",
+    "instructors": [
+      "小林 亮太"
+    ],
+    "targetGrade": 3,
+    "term": "second",
+    "slots": [],
+    "credits": 2,
+    "classFormat": "実習",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_practical",
+        "bio-tech": "liberal_practical",
+        "chem-A": "liberal_practical",
+        "chem-A-tech": "liberal_practical",
+        "chem-B": "liberal_practical",
+        "chem-B-tech": "liberal_practical",
+        "chem-C": "liberal_practical",
+        "chem-C-tech": "liberal_practical",
+        "chem-D": "liberal_practical",
+        "chem-D-tech": "liberal_practical",
+        "elec": "liberal_practical",
+        "elec-tech": "liberal_practical",
+        "info": "liberal_practical",
+        "info-tech": "liberal_practical",
+        "mech": "liberal_practical",
+        "mech-tech": "liberal_practical",
+        "da-design": "liberal_practical",
+        "da-design-tech": "liberal_practical",
+        "da-architecture": "liberal_practical",
+        "da-architecture-tech": "liberal_practical"
+      },
+      "2025": {
+        "bio": "liberal_practical",
+        "bio-tech": "liberal_practical",
+        "chem-A": "liberal_practical",
+        "chem-A-tech": "liberal_practical",
+        "chem-B": "liberal_practical",
+        "chem-B-tech": "liberal_practical",
+        "chem-C": "liberal_practical",
+        "chem-C-tech": "liberal_practical",
+        "chem-D": "liberal_practical",
+        "chem-D-tech": "liberal_practical",
+        "elec": "liberal_practical",
+        "elec-tech": "liberal_practical",
+        "info": "liberal_practical",
+        "info-tech": "liberal_practical",
+        "mech": "liberal_practical",
+        "mech-tech": "liberal_practical",
+        "da-design": "liberal_practical",
+        "da-design-tech": "liberal_practical",
+        "da-architecture": "liberal_practical",
+        "da-architecture-tech": "liberal_practical"
+      }
+    },
+    "syllabus": {
+      "outline": "企業・自治体等での就業体験を通じて、職業観を養い、大学での学びを社会の文脈で捉え直す。夏季休業中に実施し、事前・事後指導を含む。",
+      "goal": "実習先での課題に主体的に取り組み、その成果と学びを報告書にまとめて発表できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "10129440",
+    "subjectNumber": "10170440",
+    "name": "環境マネジメント論",
+    "instructors": [
+      "田辺 信介"
+    ],
+    "targetGrade": 2,
+    "term": "3Q",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 5
+      }
+    ],
+    "credits": 1,
+    "classFormat": "講義",
+    "room": "60周年記念館1F",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_practical",
+        "bio-tech": "liberal_practical",
+        "chem-A": "liberal_practical",
+        "chem-A-tech": "liberal_practical",
+        "chem-B": "liberal_practical",
+        "chem-B-tech": "liberal_practical",
+        "chem-C": "liberal_practical",
+        "chem-C-tech": "liberal_practical",
+        "chem-D": "liberal_practical",
+        "chem-D-tech": "liberal_practical",
+        "elec": "liberal_practical",
+        "elec-tech": "liberal_practical",
+        "info": "liberal_practical",
+        "info-tech": "liberal_practical",
+        "mech": "liberal_practical",
+        "mech-tech": "liberal_practical",
+        "da-design": "liberal_practical",
+        "da-design-tech": "liberal_practical",
+        "da-architecture": "liberal_practical",
+        "da-architecture-tech": "liberal_practical"
+      },
+      "2025": {
+        "bio": "liberal_practical",
+        "bio-tech": "liberal_practical",
+        "chem-A": "liberal_practical",
+        "chem-A-tech": "liberal_practical",
+        "chem-B": "liberal_practical",
+        "chem-B-tech": "liberal_practical",
+        "chem-C": "liberal_practical",
+        "chem-C-tech": "liberal_practical",
+        "chem-D": "liberal_practical",
+        "chem-D-tech": "liberal_practical",
+        "elec": "liberal_practical",
+        "elec-tech": "liberal_practical",
+        "info": "liberal_practical",
+        "info-tech": "liberal_practical",
+        "mech": "liberal_practical",
+        "mech-tech": "liberal_practical",
+        "da-design": "liberal_practical",
+        "da-design-tech": "liberal_practical",
+        "da-architecture": "liberal_practical",
+        "da-architecture-tech": "liberal_practical"
+      }
+    },
+    "syllabus": {
+      "outline": "環境問題の現状と環境マネジメントシステムの枠組みを学び、持続可能な社会のあり方を考える。",
+      "goal": "環境マネジメントの基本的枠組みを説明し、技術者としての役割を論じることができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": "実務経験のある教員による科目",
+    "id": "10139110",
+    "subjectNumber": "10180110",
+    "name": "技術者倫理",
+    "instructors": [
+      "山口 恵"
+    ],
+    "targetGrade": 3,
+    "term": "second",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 1
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "0323講義室",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_senior",
+        "bio-tech": "liberal_senior",
+        "chem-A": "liberal_senior",
+        "chem-A-tech": "liberal_senior",
+        "chem-B": "liberal_senior",
+        "chem-B-tech": "liberal_senior",
+        "chem-C": "liberal_senior",
+        "chem-C-tech": "liberal_senior",
+        "chem-D": "liberal_senior",
+        "chem-D-tech": "liberal_senior",
+        "elec": "liberal_senior",
+        "elec-tech": "liberal_senior",
+        "info": "liberal_senior",
+        "info-tech": "liberal_senior",
+        "mech": "liberal_senior",
+        "mech-tech": "liberal_senior",
+        "da-design": "liberal_senior",
+        "da-design-tech": "liberal_senior",
+        "da-architecture": "liberal_senior",
+        "da-architecture-tech": "liberal_senior"
+      },
+      "2025": {
+        "bio": "liberal_senior",
+        "bio-tech": "liberal_senior",
+        "chem-A": "liberal_senior",
+        "chem-A-tech": "liberal_senior",
+        "chem-B": "liberal_senior",
+        "chem-B-tech": "liberal_senior",
+        "chem-C": "liberal_senior",
+        "chem-C-tech": "liberal_senior",
+        "chem-D": "liberal_senior",
+        "chem-D-tech": "liberal_senior",
+        "elec": "liberal_senior",
+        "elec-tech": "liberal_senior",
+        "info": "liberal_senior",
+        "info-tech": "liberal_senior",
+        "mech": "liberal_senior",
+        "mech-tech": "liberal_senior",
+        "da-design": "liberal_senior",
+        "da-design-tech": "liberal_senior",
+        "da-architecture": "liberal_senior",
+        "da-architecture-tech": "liberal_senior"
+      }
+    },
+    "syllabus": {
+      "outline": "事例研究を通じて技術者が直面する倫理的問題を分析し、専門職としての責任を考察する。",
+      "goal": "技術者倫理の主要な概念を用いて、事例の倫理的問題点を分析・説明できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": "実務経験のある教員による科目",
+    "id": "10139220",
+    "subjectNumber": "10180220",
+    "name": "知的財産権論",
+    "instructors": [
+      "森田 圭吾"
+    ],
+    "targetGrade": 4,
+    "term": "first",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 1
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "0323講義室",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "liberal_senior",
+        "bio-tech": "liberal_senior",
+        "chem-A": "liberal_senior",
+        "chem-A-tech": "liberal_senior",
+        "chem-B": "liberal_senior",
+        "chem-B-tech": "liberal_senior",
+        "chem-C": "liberal_senior",
+        "chem-C-tech": "liberal_senior",
+        "chem-D": "liberal_senior",
+        "chem-D-tech": "liberal_senior",
+        "elec": "liberal_senior",
+        "elec-tech": "liberal_senior",
+        "info": "liberal_senior",
+        "info-tech": "liberal_senior",
+        "mech": "liberal_senior",
+        "mech-tech": "liberal_senior",
+        "da-design": "liberal_senior",
+        "da-design-tech": "liberal_senior",
+        "da-architecture": "liberal_senior",
+        "da-architecture-tech": "liberal_senior"
+      },
+      "2025": {
+        "bio": "liberal_senior",
+        "bio-tech": "liberal_senior",
+        "chem-A": "liberal_senior",
+        "chem-A-tech": "liberal_senior",
+        "chem-B": "liberal_senior",
+        "chem-B-tech": "liberal_senior",
+        "chem-C": "liberal_senior",
+        "chem-C-tech": "liberal_senior",
+        "chem-D": "liberal_senior",
+        "chem-D-tech": "liberal_senior",
+        "elec": "liberal_senior",
+        "elec-tech": "liberal_senior",
+        "info": "liberal_senior",
+        "info-tech": "liberal_senior",
+        "mech": "liberal_senior",
+        "mech-tech": "liberal_senior",
+        "da-design": "liberal_senior",
+        "da-design-tech": "liberal_senior",
+        "da-architecture": "liberal_senior",
+        "da-architecture-tech": "liberal_senior"
+      }
+    },
+    "syllabus": {
+      "outline": "特許・著作権・商標など知的財産権制度の概要と、研究開発における知財戦略を学ぶ。",
+      "goal": "知的財産権の種類と保護要件を説明し、研究成果の権利化の流れを理解できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "11011010",
+    "subjectNumber": "11021010",
+    "name": "微分積分学Ⅰ",
+    "instructors": [
+      "黒田 篤志"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 1
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "1-322",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "basic_required",
+        "bio-tech": "basic_required",
+        "chem-A": "basic_required",
+        "chem-A-tech": "basic_required",
+        "chem-B": "basic_required",
+        "chem-B-tech": "basic_required",
+        "chem-C": "basic_required",
+        "chem-C-tech": "basic_required",
+        "chem-D": "basic_required",
+        "chem-D-tech": "basic_required",
+        "elec": "basic_required",
+        "elec-tech": "basic_required",
+        "info": "basic_required",
+        "info-tech": "basic_required",
+        "mech": "basic_required",
+        "mech-tech": "basic_required",
+        "da-design": "basic_required",
+        "da-design-tech": "basic_required",
+        "da-architecture": "basic_required",
+        "da-architecture-tech": "basic_required"
+      },
+      "2025": {
+        "bio": "basic_required",
+        "bio-tech": "basic_required",
+        "chem-A": "basic_required",
+        "chem-A-tech": "basic_required",
+        "chem-B": "basic_required",
+        "chem-B-tech": "basic_required",
+        "chem-C": "basic_required",
+        "chem-C-tech": "basic_required",
+        "chem-D": "basic_required",
+        "chem-D-tech": "basic_required",
+        "elec": "basic_required",
+        "elec-tech": "basic_required",
+        "info": "basic_required",
+        "info-tech": "basic_required",
+        "mech": "basic_required",
+        "mech-tech": "basic_required",
+        "da-design": "basic_required",
+        "da-design-tech": "basic_required",
+        "da-architecture": "basic_required",
+        "da-architecture-tech": "basic_required"
+      }
+    },
+    "syllabus": {
+      "outline": "1変数関数の極限・微分・積分を扱い、理工学の基礎となる解析学の計算技法と考え方を身につける。",
+      "goal": "1変数関数の微分・積分を正確に計算し、応用問題に適用できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "11011020",
+    "subjectNumber": "11021020",
+    "name": "微分積分学Ⅱ",
+    "instructors": [
+      "黒田 篤志"
+    ],
+    "targetGrade": 1,
+    "term": "second",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 1
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "1-322",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "basic_elective_required",
+        "bio-tech": "basic_elective_required",
+        "chem-A": "basic_elective_required",
+        "chem-A-tech": "basic_elective_required",
+        "chem-B": "basic_elective_required",
+        "chem-B-tech": "basic_elective_required",
+        "chem-C": "basic_elective_required",
+        "chem-C-tech": "basic_elective_required",
+        "chem-D": "basic_elective_required",
+        "chem-D-tech": "basic_elective_required",
+        "elec": "basic_elective_required",
+        "elec-tech": "basic_elective_required",
+        "info": "basic_elective_required",
+        "info-tech": "basic_elective_required",
+        "mech": "basic_elective_required",
+        "mech-tech": "basic_elective_required",
+        "da-design": "basic_elective_required",
+        "da-design-tech": "basic_elective_required",
+        "da-architecture": "basic_elective_required",
+        "da-architecture-tech": "basic_elective_required"
+      },
+      "2025": {
+        "bio": "basic_elective_required",
+        "bio-tech": "basic_elective_required",
+        "chem-A": "basic_elective_required",
+        "chem-A-tech": "basic_elective_required",
+        "chem-B": "basic_elective_required",
+        "chem-B-tech": "basic_elective_required",
+        "chem-C": "basic_elective_required",
+        "chem-C-tech": "basic_elective_required",
+        "chem-D": "basic_elective_required",
+        "chem-D-tech": "basic_elective_required",
+        "elec": "basic_elective_required",
+        "elec-tech": "basic_elective_required",
+        "info": "basic_elective_required",
+        "info-tech": "basic_elective_required",
+        "mech": "basic_elective_required",
+        "mech-tech": "basic_elective_required",
+        "da-design": "basic_elective_required",
+        "da-design-tech": "basic_elective_required",
+        "da-architecture": "basic_elective_required",
+        "da-architecture-tech": "basic_elective_required"
+      }
+    },
+    "syllabus": {
+      "outline": "多変数関数の偏微分・重積分と級数を扱い、微分積分学Ⅰに続く解析学の基礎を学ぶ。",
+      "goal": "偏微分・重積分・級数の基本的な計算ができ、理工学の問題に応用できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "11012010",
+    "subjectNumber": "11022010",
+    "name": "線形代数学Ⅰ",
+    "instructors": [
+      "長谷川 純"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "1-322",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "basic_required",
+        "bio-tech": "basic_required",
+        "chem-A": "basic_required",
+        "chem-A-tech": "basic_required",
+        "chem-B": "basic_required",
+        "chem-B-tech": "basic_required",
+        "chem-C": "basic_required",
+        "chem-C-tech": "basic_required",
+        "chem-D": "basic_required",
+        "chem-D-tech": "basic_required",
+        "elec": "basic_required",
+        "elec-tech": "basic_required",
+        "info": "basic_required",
+        "info-tech": "basic_required",
+        "mech": "basic_required",
+        "mech-tech": "basic_required",
+        "da-design": "basic_required",
+        "da-design-tech": "basic_required",
+        "da-architecture": "basic_required",
+        "da-architecture-tech": "basic_required"
+      },
+      "2025": {
+        "bio": "basic_required",
+        "bio-tech": "basic_required",
+        "chem-A": "basic_required",
+        "chem-A-tech": "basic_required",
+        "chem-B": "basic_required",
+        "chem-B-tech": "basic_required",
+        "chem-C": "basic_required",
+        "chem-C-tech": "basic_required",
+        "chem-D": "basic_required",
+        "chem-D-tech": "basic_required",
+        "elec": "basic_required",
+        "elec-tech": "basic_required",
+        "info": "basic_required",
+        "info-tech": "basic_required",
+        "mech": "basic_required",
+        "mech-tech": "basic_required",
+        "da-design": "basic_required",
+        "da-design-tech": "basic_required",
+        "da-architecture": "basic_required",
+        "da-architecture-tech": "basic_required"
+      }
+    },
+    "syllabus": {
+      "outline": "行列と行列式、連立一次方程式の解法を中心に、線形代数の基礎を学ぶ。",
+      "goal": "行列の演算・行列式の計算・連立一次方程式の解法を確実に実行できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "11012020",
+    "subjectNumber": "11022020",
+    "name": "線形代数学Ⅱ",
+    "instructors": [
+      "長谷川 純"
+    ],
+    "targetGrade": 1,
+    "term": "second",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "1-322",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "basic_elective_required",
+        "bio-tech": "basic_elective_required",
+        "chem-A": "basic_elective_required",
+        "chem-A-tech": "basic_elective_required",
+        "chem-B": "basic_elective_required",
+        "chem-B-tech": "basic_elective_required",
+        "chem-C": "basic_elective_required",
+        "chem-C-tech": "basic_elective_required",
+        "chem-D": "basic_elective_required",
+        "chem-D-tech": "basic_elective_required",
+        "elec": "basic_elective_required",
+        "elec-tech": "basic_elective_required",
+        "info": "basic_elective_required",
+        "info-tech": "basic_elective_required",
+        "mech": "basic_elective_required",
+        "mech-tech": "basic_elective_required",
+        "da-design": "basic_elective_required",
+        "da-design-tech": "basic_elective_required",
+        "da-architecture": "basic_elective_required",
+        "da-architecture-tech": "basic_elective_required"
+      },
+      "2025": {
+        "bio": "basic_elective_required",
+        "bio-tech": "basic_elective_required",
+        "chem-A": "basic_elective_required",
+        "chem-A-tech": "basic_elective_required",
+        "chem-B": "basic_elective_required",
+        "chem-B-tech": "basic_elective_required",
+        "chem-C": "basic_elective_required",
+        "chem-C-tech": "basic_elective_required",
+        "chem-D": "basic_elective_required",
+        "chem-D-tech": "basic_elective_required",
+        "elec": "basic_elective_required",
+        "elec-tech": "basic_elective_required",
+        "info": "basic_elective_required",
+        "info-tech": "basic_elective_required",
+        "mech": "basic_elective_required",
+        "mech-tech": "basic_elective_required",
+        "da-design": "basic_elective_required",
+        "da-design-tech": "basic_elective_required",
+        "da-architecture": "basic_elective_required",
+        "da-architecture-tech": "basic_elective_required"
+      }
+    },
+    "syllabus": {
+      "outline": "ベクトル空間・線形写像・固有値と対角化を扱い、線形代数の理論的基礎を完成させる。",
+      "goal": "固有値・固有ベクトルを求め、行列の対角化と応用ができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "11013010",
+    "subjectNumber": "11023010",
+    "name": "確率統計",
+    "instructors": [
+      "大西 真理"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "6-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "basic_elective_required",
+        "bio-tech": "basic_elective_required",
+        "chem-A": "basic_elective_required",
+        "chem-A-tech": "basic_elective_required",
+        "chem-B": "basic_elective_required",
+        "chem-B-tech": "basic_elective_required",
+        "chem-C": "basic_elective_required",
+        "chem-C-tech": "basic_elective_required",
+        "chem-D": "basic_elective_required",
+        "chem-D-tech": "basic_elective_required",
+        "elec": "basic_elective_required",
+        "elec-tech": "basic_elective_required",
+        "info": "basic_elective_required",
+        "info-tech": "basic_elective_required",
+        "mech": "basic_elective_required",
+        "mech-tech": "basic_elective_required",
+        "da-design": "basic_elective_required",
+        "da-design-tech": "basic_elective_required",
+        "da-architecture": "basic_elective_required",
+        "da-architecture-tech": "basic_elective_required"
+      },
+      "2025": {
+        "bio": "basic_elective_required",
+        "bio-tech": "basic_elective_required",
+        "chem-A": "basic_elective_required",
+        "chem-A-tech": "basic_elective_required",
+        "chem-B": "basic_elective_required",
+        "chem-B-tech": "basic_elective_required",
+        "chem-C": "basic_elective_required",
+        "chem-C-tech": "basic_elective_required",
+        "chem-D": "basic_elective_required",
+        "chem-D-tech": "basic_elective_required",
+        "elec": "basic_elective_required",
+        "elec-tech": "basic_elective_required",
+        "info": "basic_elective_required",
+        "info-tech": "basic_elective_required",
+        "mech": "basic_elective_required",
+        "mech-tech": "basic_elective_required",
+        "da-design": "basic_elective_required",
+        "da-design-tech": "basic_elective_required",
+        "da-architecture": "basic_elective_required",
+        "da-architecture-tech": "basic_elective_required"
+      }
+    },
+    "syllabus": {
+      "outline": "確率の基礎、確率分布、推定・検定の基本を学び、データに基づく意思決定の素養を身につける。",
+      "goal": "基本的な確率分布を扱い、母数の推定と仮説検定を実行できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "11014010",
+    "subjectNumber": "11024010",
+    "name": "物理学基礎Ⅰ",
+    "instructors": [
+      "河合 俊輔"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 1
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "6-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "basic_elective_required",
+        "bio-tech": "basic_elective_required",
+        "chem-A": "basic_elective_required",
+        "chem-A-tech": "basic_elective_required",
+        "chem-B": "basic_elective_required",
+        "chem-B-tech": "basic_elective_required",
+        "chem-C": "basic_elective_required",
+        "chem-C-tech": "basic_elective_required",
+        "chem-D": "basic_elective_required",
+        "chem-D-tech": "basic_elective_required",
+        "elec": "basic_elective_required",
+        "elec-tech": "basic_elective_required",
+        "info": "basic_elective_required",
+        "info-tech": "basic_elective_required",
+        "mech": "basic_elective_required",
+        "mech-tech": "basic_elective_required",
+        "da-design": "basic_elective_required",
+        "da-design-tech": "basic_elective_required",
+        "da-architecture": "basic_elective_required",
+        "da-architecture-tech": "basic_elective_required"
+      },
+      "2025": {
+        "bio": "basic_elective_required",
+        "bio-tech": "basic_elective_required",
+        "chem-A": "basic_elective_required",
+        "chem-A-tech": "basic_elective_required",
+        "chem-B": "basic_elective_required",
+        "chem-B-tech": "basic_elective_required",
+        "chem-C": "basic_elective_required",
+        "chem-C-tech": "basic_elective_required",
+        "chem-D": "basic_elective_required",
+        "chem-D-tech": "basic_elective_required",
+        "elec": "basic_elective_required",
+        "elec-tech": "basic_elective_required",
+        "info": "basic_elective_required",
+        "info-tech": "basic_elective_required",
+        "mech": "basic_elective_required",
+        "mech-tech": "basic_elective_required",
+        "da-design": "basic_elective_required",
+        "da-design-tech": "basic_elective_required",
+        "da-architecture": "basic_elective_required",
+        "da-architecture-tech": "basic_elective_required"
+      }
+    },
+    "syllabus": {
+      "outline": "質点と剛体の力学を中心に、物理学の基本概念と問題解決の方法を学ぶ。",
+      "goal": "ニュートン力学の基本法則を用いて、基礎的な力学の問題を解くことができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12410010",
+    "subjectNumber": "12420010",
+    "name": "情報工学序論",
+    "instructors": [
+      "清水 紀子"
+    ],
+    "targetGrade": 1,
+    "term": "1Q",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 3
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "E1-501",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "intro_required",
+        "info-tech": "intro_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "intro_required",
+        "info-tech": "intro_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "情報工学の全体像(計算の理論、ハードウェア、ソフトウェア、ネットワーク、AI)を概観し、以降の専門科目への導入とする。",
+      "goal": "情報工学の主要分野とその相互関係を説明できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": true,
+    "attributes": "PBL 実施科目",
+    "id": "12410020",
+    "subjectNumber": "12420020",
+    "name": "地域創生Tech概論",
+    "instructors": [
+      "三宅 雄大"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [],
+    "credits": 1,
+    "classFormat": "講義",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "out_of_scope",
+        "bio-tech": "intro_required",
+        "chem-A": "out_of_scope",
+        "chem-A-tech": "intro_required",
+        "chem-B": "out_of_scope",
+        "chem-B-tech": "intro_required",
+        "chem-C": "out_of_scope",
+        "chem-C-tech": "intro_required",
+        "chem-D": "out_of_scope",
+        "chem-D-tech": "intro_required",
+        "elec": "out_of_scope",
+        "elec-tech": "intro_required",
+        "info": "out_of_scope",
+        "info-tech": "intro_required",
+        "mech": "out_of_scope",
+        "mech-tech": "intro_required",
+        "da-design": "out_of_scope",
+        "da-design-tech": "intro_required",
+        "da-architecture": "out_of_scope",
+        "da-architecture-tech": "intro_required"
+      },
+      "2025": {
+        "bio": "out_of_scope",
+        "bio-tech": "intro_required",
+        "chem-A": "out_of_scope",
+        "chem-A-tech": "intro_required",
+        "chem-B": "out_of_scope",
+        "chem-B-tech": "intro_required",
+        "chem-C": "out_of_scope",
+        "chem-C-tech": "intro_required",
+        "chem-D": "out_of_scope",
+        "chem-D-tech": "intro_required",
+        "elec": "out_of_scope",
+        "elec-tech": "intro_required",
+        "info": "out_of_scope",
+        "info-tech": "intro_required",
+        "mech": "out_of_scope",
+        "mech-tech": "intro_required",
+        "da-design": "out_of_scope",
+        "da-design-tech": "intro_required",
+        "da-architecture": "out_of_scope",
+        "da-architecture-tech": "intro_required"
+      }
+    },
+    "syllabus": {
+      "outline": "地域創生Tech Programの導入科目。地域課題の発見と技術による解決のプロセスを、フィールドワークを交えて学ぶ。",
+      "goal": "地域課題を技術の視点から分析し、解決のアプローチを提案できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12411010",
+    "subjectNumber": "12421010",
+    "name": "プログラミング基礎",
+    "instructors": [
+      "安田 桃子"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義及び演習",
+    "room": "E1-501",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "C言語を用いてプログラミングの基礎(変数・制御構造・関数・配列・ポインタ)を講義と演習で学ぶ。",
+      "goal": "基本的なアルゴリズムをC言語のプログラムとして実装し、デバッグできる。",
+      "grading": "演習課題40%、中間試験20%、期末試験40%。",
+      "plan": [
+        {
+          "round": 1,
+          "topic": "ガイダンス・開発環境の構築",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 2,
+          "topic": "変数とデータ型",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 3,
+          "topic": "演算子と式",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 4,
+          "topic": "条件分岐",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 5,
+          "topic": "繰り返し処理",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 6,
+          "topic": "関数の定義と呼び出し",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 7,
+          "topic": "配列",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 8,
+          "topic": "文字列処理",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 9,
+          "topic": "中間まとめと演習",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 10,
+          "topic": "ポインタの基礎",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 11,
+          "topic": "ポインタと配列",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 12,
+          "topic": "構造体",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 13,
+          "topic": "ファイル入出力",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 14,
+          "topic": "総合演習",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        },
+        {
+          "round": 15,
+          "topic": "まとめと発展的話題",
+          "pre": "教科書の該当章を読み、サンプルコードを写経しておくこと。",
+          "post": "演習課題を完成させ、コードの動作を確認すること。"
+        }
+      ]
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12411020",
+    "subjectNumber": "12421020",
+    "name": "離散数学",
+    "instructors": [
+      "野口 隆"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 1
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "E1-501",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "basic_elective_required",
+        "info-tech": "basic_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "basic_elective_required",
+        "info-tech": "basic_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "集合・論理・関係・グラフ理論など、情報工学の基礎となる離散数学を学ぶ。",
+      "goal": "集合・論理・グラフの基本概念を用いて、離散的な構造の問題を定式化し解くことができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12412010",
+    "subjectNumber": "12422010",
+    "name": "データ構造とアルゴリズム",
+    "instructors": [
+      "平野 慎一"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 3
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "E1-501",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "リスト・スタック・キュー・木・ハッシュ表などの基本データ構造と、探索・整列の代表的アルゴリズム、計算量の評価法を学ぶ。",
+      "goal": "基本的なデータ構造とアルゴリズムを選択・実装し、その計算量を評価できる。",
+      "grading": "演習課題30%、期末試験70%。",
+      "plan": [
+        {
+          "round": 1,
+          "topic": "ガイダンス・アルゴリズムと計算量",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 2,
+          "topic": "配列と連結リスト",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 3,
+          "topic": "スタックとキュー",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 4,
+          "topic": "再帰",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 5,
+          "topic": "二分探索",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 6,
+          "topic": "整列① 単純整列法",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 7,
+          "topic": "整列② クイックソート・マージソート",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 8,
+          "topic": "木構造",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 9,
+          "topic": "二分探索木",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 10,
+          "topic": "ヒープと優先度付きキュー",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 11,
+          "topic": "ハッシュ法",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 12,
+          "topic": "グラフの表現と探索",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 13,
+          "topic": "最短経路アルゴリズム",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 14,
+          "topic": "動的計画法入門",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        },
+        {
+          "round": 15,
+          "topic": "まとめ",
+          "pre": "教科書の該当章を読み、擬似コードを確認しておくこと。",
+          "post": "講義で扱ったアルゴリズムを実装して動作を確認すること。"
+        }
+      ]
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12412020",
+    "subjectNumber": "12422020",
+    "name": "論理回路",
+    "instructors": [
+      "杉本 加奈"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "E1-502",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "ブール代数、組合せ回路、順序回路の設計法を学び、ディジタルシステムの基礎を理解する。",
+      "goal": "与えられた仕様から組合せ回路・順序回路を設計できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12412030",
+    "subjectNumber": "12422030",
+    "name": "計算機システム",
+    "instructors": [
+      "横山 大輔"
+    ],
+    "targetGrade": 2,
+    "term": "second",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "E1-501",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "プロセッサ・メモリ・入出力などの計算機構成と、命令セットアーキテクチャ、パイプライン処理の基礎を学ぶ。",
+      "goal": "計算機の基本構成と動作原理を説明し、性能評価の基本指標を計算できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12412040",
+    "subjectNumber": "12422040",
+    "name": "情報ネットワーク",
+    "instructors": [
+      "北村 文乃"
+    ],
+    "targetGrade": 2,
+    "term": "second",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "E1-501",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "インターネットの階層モデルに沿って、物理層からアプリケーション層までのプロトコルと仕組みを学ぶ。",
+      "goal": "TCP/IPの各層の役割と主要プロトコルの動作を説明できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": "PBL 実施科目",
+    "id": "12412050",
+    "subjectNumber": "12422050",
+    "name": "AI・データサイエンス基礎",
+    "instructors": [
+      "内田 勝"
+    ],
+    "targetGrade": 2,
+    "term": "2Q",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 4
+      }
+    ],
+    "credits": 1,
+    "classFormat": "講義",
+    "room": "E1-502",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "AI・機械学習・データ分析の基礎概念と、Pythonによる簡単なデータ分析の流れを学ぶ。",
+      "goal": "データ分析の基本的な流れを理解し、簡単な分析をPythonで実行できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12412060",
+    "subjectNumber": "12422060",
+    "name": "形式言語とオートマトン",
+    "instructors": [
+      "野口 隆"
+    ],
+    "targetGrade": 2,
+    "term": "1Q",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 4
+      }
+    ],
+    "credits": 1,
+    "classFormat": "講義",
+    "room": "E1-502",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "有限オートマトン・正規言語・文脈自由文法など、計算モデルと言語理論の基礎を学ぶ。",
+      "goal": "オートマトンと形式文法の対応関係を説明し、基本的な言語の認識器を構成できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12413010",
+    "subjectNumber": "12423010",
+    "name": "オペレーティングシステム",
+    "instructors": [
+      "平野 慎一"
+    ],
+    "targetGrade": 3,
+    "term": "first",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "E1-501",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "プロセス管理・メモリ管理・ファイルシステム・並行制御など、OSの基本機能と実現方式を学ぶ。",
+      "goal": "OSの主要機能の役割と実現方式を説明し、システムプログラミングの基礎を実践できる。",
+      "plan": [
+        {
+          "round": 1,
+          "topic": "OSの役割と歴史"
+        },
+        {
+          "round": 2,
+          "topic": "プロセスとスレッド"
+        },
+        {
+          "round": 3,
+          "topic": "CPUスケジューリング"
+        },
+        {
+          "round": 4,
+          "topic": "並行処理と同期"
+        },
+        {
+          "round": 5,
+          "topic": "デッドロック"
+        },
+        {
+          "round": 6,
+          "topic": "メモリ管理①"
+        },
+        {
+          "round": 7,
+          "topic": "メモリ管理② 仮想記憶"
+        },
+        {
+          "round": 8,
+          "topic": "中間まとめ"
+        },
+        {
+          "round": 9,
+          "topic": "ファイルシステム①"
+        },
+        {
+          "round": 10,
+          "topic": "ファイルシステム②"
+        },
+        {
+          "round": 11,
+          "topic": "入出力管理"
+        },
+        {
+          "round": 12,
+          "topic": "保護とセキュリティ"
+        },
+        {
+          "round": 13,
+          "topic": "仮想化技術"
+        },
+        {
+          "round": 14,
+          "topic": "分散システム入門"
+        },
+        {
+          "round": 15,
+          "topic": "まとめ"
+        }
+      ]
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12413020",
+    "subjectNumber": "12423020",
+    "name": "コンパイラ",
+    "instructors": [
+      "清水 紀子"
+    ],
+    "targetGrade": 3,
+    "term": "3Q",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 2
+      }
+    ],
+    "credits": 1,
+    "classFormat": "講義",
+    "room": "E1-502",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "字句解析・構文解析・意味解析・コード生成というコンパイラの構成と実現技法を学ぶ。",
+      "goal": "コンパイラの各フェーズの役割を説明し、簡単な言語の処理系を構成できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12413030",
+    "subjectNumber": "12423030",
+    "name": "ネットワークプログラミングⅠ",
+    "instructors": [
+      "北村 文乃"
+    ],
+    "targetGrade": 3,
+    "term": "first",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 4
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義及び演習",
+    "room": "E1-503",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "ソケットAPIを用いたクライアント・サーバプログラミングを演習形式で学ぶ。",
+      "goal": "TCP/UDPソケットを用いた基本的なネットワークアプリケーションを実装できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12413040",
+    "subjectNumber": "12423040",
+    "name": "システム最適化",
+    "instructors": [
+      "内田 勝"
+    ],
+    "targetGrade": 3,
+    "term": "4Q",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 4
+      }
+    ],
+    "credits": 1,
+    "classFormat": "講義",
+    "room": "E1-502",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "線形計画法・整数計画法・メタヒューリスティクスなど、システムの最適化手法を学ぶ。",
+      "goal": "実問題を最適化問題として定式化し、適切な解法を選択・適用できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12413050",
+    "subjectNumber": "12423050",
+    "name": "データベース",
+    "instructors": [
+      "横山 大輔"
+    ],
+    "targetGrade": 3,
+    "term": "3Q",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 3
+      }
+    ],
+    "credits": 1,
+    "classFormat": "講義",
+    "room": "E1-501",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective_required",
+        "info-tech": "program_elective_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "関係モデル・SQL・正規化・トランザクション処理など、データベースシステムの基礎を学ぶ。",
+      "goal": "関係データベースを設計し、SQLによる問い合わせを記述できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12413060",
+    "subjectNumber": "12423060",
+    "name": "ソフトウェア工学",
+    "instructors": [
+      "安田 桃子"
+    ],
+    "targetGrade": 3,
+    "term": "second",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "E1-501",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "要求分析・設計・実装・テスト・保守というソフトウェアライフサイクルと、アジャイル開発などの開発プロセスを学ぶ。",
+      "goal": "ソフトウェア開発の各工程の目的と手法を説明し、小規模な開発に適用できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12413070",
+    "subjectNumber": "12423070",
+    "name": "機械学習",
+    "instructors": [
+      "福井 智也"
+    ],
+    "targetGrade": 3,
+    "term": "3Q",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      }
+    ],
+    "credits": 1,
+    "classFormat": "講義",
+    "room": "E1-503",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective",
+        "info-tech": "program_elective",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective",
+        "info-tech": "program_elective",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "教師あり学習・教師なし学習・ニューラルネットワークの基礎理論と実装を学ぶ。",
+      "goal": "代表的な機械学習手法の原理を説明し、データに適用して評価できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": "PBL 実施科目",
+    "id": "12413080",
+    "subjectNumber": "12423080",
+    "name": "プロジェクト実習Ⅱ",
+    "instructors": [
+      "平野 慎一",
+      "清水 紀子"
+    ],
+    "targetGrade": 3,
+    "term": "first",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 4
+      },
+      {
+        "day": "thu",
+        "period": 5
+      }
+    ],
+    "credits": 2,
+    "classFormat": "実習",
+    "room": "E1-503",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "チームでソフトウェア開発プロジェクトを企画・実施し、要求分析から実装・発表までを実践する。",
+      "goal": "チーム開発の中で役割を担い、動作するソフトウェアを完成させて成果を発表できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": "PBL 実施科目",
+    "id": "12413090",
+    "subjectNumber": "12423090",
+    "name": "プロジェクト実習Ⅲ",
+    "instructors": [
+      "横山 大輔",
+      "北村 文乃"
+    ],
+    "targetGrade": 3,
+    "term": "second",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 4
+      },
+      {
+        "day": "thu",
+        "period": 5
+      }
+    ],
+    "credits": 2,
+    "classFormat": "実習",
+    "room": "E1-503",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_required",
+        "info-tech": "program_required",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "プロジェクト実習Ⅱの成果を発展させ、より実践的な開発プロジェクトを遂行する。外部発表の機会を設ける。",
+      "goal": "プロジェクトの計画・管理・評価を主体的に行い、成果を対外的に発表できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": true,
+    "attributes": null,
+    "id": "12414010",
+    "subjectNumber": "12424010",
+    "name": "卒業研究",
+    "instructors": [
+      "情報工学課程 各教員"
+    ],
+    "targetGrade": 4,
+    "term": "full_year",
+    "slots": [],
+    "credits": 8,
+    "classFormat": "実験・実習",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "not_allowed",
+        "bio-tech": "not_allowed",
+        "chem-A": "not_allowed",
+        "chem-A-tech": "not_allowed",
+        "chem-B": "not_allowed",
+        "chem-B-tech": "not_allowed",
+        "chem-C": "not_allowed",
+        "chem-C-tech": "not_allowed",
+        "chem-D": "not_allowed",
+        "chem-D-tech": "not_allowed",
+        "elec": "not_allowed",
+        "elec-tech": "not_allowed",
+        "info": "graduation_research",
+        "info-tech": "graduation_research",
+        "mech": "not_allowed",
+        "mech-tech": "not_allowed",
+        "da-design": "not_allowed",
+        "da-design-tech": "not_allowed",
+        "da-architecture": "not_allowed",
+        "da-architecture-tech": "not_allowed"
+      },
+      "2025": {
+        "bio": "not_allowed",
+        "bio-tech": "not_allowed",
+        "chem-A": "not_allowed",
+        "chem-A-tech": "not_allowed",
+        "chem-B": "not_allowed",
+        "chem-B-tech": "not_allowed",
+        "chem-C": "not_allowed",
+        "chem-C-tech": "not_allowed",
+        "chem-D": "not_allowed",
+        "chem-D-tech": "not_allowed",
+        "elec": "not_allowed",
+        "elec-tech": "not_allowed",
+        "info": "graduation_research",
+        "info-tech": "graduation_research",
+        "mech": "not_allowed",
+        "mech-tech": "not_allowed",
+        "da-design": "not_allowed",
+        "da-design-tech": "not_allowed",
+        "da-architecture": "not_allowed",
+        "da-architecture-tech": "not_allowed"
+      }
+    },
+    "syllabus": {
+      "outline": "指導教員のもとで研究テーマを設定し、1年間を通じて研究を遂行する。研究成果は卒業論文にまとめ、発表会で報告する。",
+      "goal": "研究の計画・遂行・考察・発表という一連のプロセスを主体的に実践できる。"
+    }
+  },
+  {
+    "offeredThisYear": false,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": "実務経験のある教員による科目",
+    "id": "12414020",
+    "subjectNumber": "12424020",
+    "name": "先端情報技術特別講義",
+    "instructors": [
+      "学外講師"
+    ],
+    "targetGrade": 4,
+    "term": "2Q",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 5
+      }
+    ],
+    "credits": 1,
+    "classFormat": "講義",
+    "room": "E1-501",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective",
+        "info-tech": "program_elective",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "program_elective",
+        "info-tech": "program_elective",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "産業界の第一線で活躍する講師が、最新の情報技術と研究開発の動向を紹介する。今年度は不開講。",
+      "goal": "情報技術の最新動向を理解し、自らの研究・キャリアとの関係を考察できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12110010",
+    "subjectNumber": "12120010",
+    "name": "分子生物学",
+    "instructors": [
+      "井上 直子"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 1
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "西1-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "program_required",
+        "bio-tech": "program_required",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "program_required",
+        "bio-tech": "program_required",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "DNAの複製・転写・翻訳を中心に、生命現象を分子レベルで理解するための基礎を学ぶ。",
+      "goal": "セントラルドグマの各過程を分子機構とともに説明できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12110020",
+    "subjectNumber": "12120020",
+    "name": "遺伝子工学",
+    "instructors": [
+      "坂本 健"
+    ],
+    "targetGrade": 3,
+    "term": "second",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 1
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "西1-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "program_elective_required",
+        "bio-tech": "program_elective_required",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "program_elective_required",
+        "bio-tech": "program_elective_required",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "遺伝子組換え・ゲノム編集などの遺伝子操作技術の原理と応用を学ぶ。",
+      "goal": "主要な遺伝子操作技術の原理を説明し、応用例を挙げて議論できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12110030",
+    "subjectNumber": "12120030",
+    "name": "応用生物学実験Ⅰ",
+    "instructors": [
+      "井上 直子",
+      "坂本 健"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 3
+      },
+      {
+        "day": "mon",
+        "period": 4
+      }
+    ],
+    "credits": 2,
+    "classFormat": "実験",
+    "room": "西1-201実験室",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "program_required",
+        "bio-tech": "program_required",
+        "chem-A": "not_allowed",
+        "chem-A-tech": "not_allowed",
+        "chem-B": "not_allowed",
+        "chem-B-tech": "not_allowed",
+        "chem-C": "not_allowed",
+        "chem-C-tech": "not_allowed",
+        "chem-D": "not_allowed",
+        "chem-D-tech": "not_allowed",
+        "elec": "not_allowed",
+        "elec-tech": "not_allowed",
+        "info": "not_allowed",
+        "info-tech": "not_allowed",
+        "mech": "not_allowed",
+        "mech-tech": "not_allowed",
+        "da-design": "not_allowed",
+        "da-design-tech": "not_allowed",
+        "da-architecture": "not_allowed",
+        "da-architecture-tech": "not_allowed"
+      },
+      "2025": {
+        "bio": "program_required",
+        "bio-tech": "program_required",
+        "chem-A": "not_allowed",
+        "chem-A-tech": "not_allowed",
+        "chem-B": "not_allowed",
+        "chem-B-tech": "not_allowed",
+        "chem-C": "not_allowed",
+        "chem-C-tech": "not_allowed",
+        "chem-D": "not_allowed",
+        "chem-D-tech": "not_allowed",
+        "elec": "not_allowed",
+        "elec-tech": "not_allowed",
+        "info": "not_allowed",
+        "info-tech": "not_allowed",
+        "mech": "not_allowed",
+        "mech-tech": "not_allowed",
+        "da-design": "not_allowed",
+        "da-design-tech": "not_allowed",
+        "da-architecture": "not_allowed",
+        "da-architecture-tech": "not_allowed"
+      }
+    },
+    "syllabus": {
+      "outline": "微生物の取り扱い・顕微鏡観察・基礎的な分子生物学実験の手技を習得する。",
+      "goal": "基本的な生物学実験を安全に実施し、結果をレポートにまとめることができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12210010",
+    "subjectNumber": "12220010",
+    "name": "有機化学Ⅰ",
+    "instructors": [
+      "村上 哲"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "西2-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "program_required",
+        "chem-A-tech": "program_required",
+        "chem-B": "program_required",
+        "chem-B-tech": "program_required",
+        "chem-C": "program_required",
+        "chem-C-tech": "program_required",
+        "chem-D": "program_required",
+        "chem-D-tech": "program_required",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "program_required",
+        "chem-A-tech": "program_required",
+        "chem-B": "program_required",
+        "chem-B-tech": "program_required",
+        "chem-C": "program_required",
+        "chem-C-tech": "program_required",
+        "chem-D": "program_required",
+        "chem-D-tech": "program_required",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "有機化合物の構造・命名法・立体化学と、代表的な反応機構の基礎を学ぶ。",
+      "goal": "基本的な有機化合物の構造と反応性を、電子の動きに基づいて説明できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12210020",
+    "subjectNumber": "12220020",
+    "name": "物理化学Ⅰ",
+    "instructors": [
+      "近藤 由佳"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 3
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "西2-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "program_required",
+        "chem-A-tech": "program_required",
+        "chem-B": "program_required",
+        "chem-B-tech": "program_required",
+        "chem-C": "program_required",
+        "chem-C-tech": "program_required",
+        "chem-D": "program_required",
+        "chem-D-tech": "program_required",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "program_required",
+        "chem-A-tech": "program_required",
+        "chem-B": "program_required",
+        "chem-B-tech": "program_required",
+        "chem-C": "program_required",
+        "chem-C-tech": "program_required",
+        "chem-D": "program_required",
+        "chem-D-tech": "program_required",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "熱力学第一・第二法則と化学平衡を中心に、化学現象を定量的に扱う物理化学の基礎を学ぶ。",
+      "goal": "熱力学の基本法則を用いて化学反応の進行方向と平衡を予測できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12210030",
+    "subjectNumber": "12220030",
+    "name": "高分子化学",
+    "instructors": [
+      "村上 哲"
+    ],
+    "targetGrade": 3,
+    "term": "first",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "西2-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "program_elective_other_course",
+        "chem-A-tech": "program_elective_other_course",
+        "chem-B": "program_elective_other_course",
+        "chem-B-tech": "program_elective_other_course",
+        "chem-C": "program_elective_other_course",
+        "chem-C-tech": "program_elective_other_course",
+        "chem-D": "program_required",
+        "chem-D-tech": "program_required",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "program_elective_other_course",
+        "chem-A-tech": "program_elective_other_course",
+        "chem-B": "program_elective_other_course",
+        "chem-B-tech": "program_elective_other_course",
+        "chem-C": "program_elective_other_course",
+        "chem-C-tech": "program_elective_other_course",
+        "chem-D": "program_required",
+        "chem-D-tech": "program_required",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "高分子の合成法・構造・物性の基礎と、機能性高分子材料への応用を学ぶ。",
+      "goal": "代表的な重合反応と高分子の構造-物性相関を説明できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12310010",
+    "subjectNumber": "12320010",
+    "name": "電気回路Ⅰ",
+    "instructors": [
+      "後藤 修平"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 1
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "東3-211",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "program_required",
+        "elec-tech": "program_required",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "program_required",
+        "elec-tech": "program_required",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "直流・交流回路の解析法(キルヒホッフの法則、フェーザ表示、共振回路)を学ぶ。",
+      "goal": "基本的な電気回路を解析し、電圧・電流・電力を計算できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12310020",
+    "subjectNumber": "12320020",
+    "name": "電磁気学Ⅰ",
+    "instructors": [
+      "宮本 さくら"
+    ],
+    "targetGrade": 2,
+    "term": "second",
+    "slots": [
+      {
+        "day": "thu",
+        "period": 2
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "東3-211",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "program_required",
+        "elec-tech": "program_required",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "program_required",
+        "elec-tech": "program_required",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "静電界・静磁界の基本法則とマクスウェル方程式への導入を学ぶ。",
+      "goal": "ガウスの法則・アンペールの法則を用いて基本的な電磁界の問題を解くことができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12310030",
+    "subjectNumber": "12320030",
+    "name": "半導体工学",
+    "instructors": [
+      "後藤 修平"
+    ],
+    "targetGrade": 3,
+    "term": "first",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 4
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "東3-211",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "program_elective_required",
+        "elec-tech": "program_elective_required",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "program_elective_required",
+        "elec-tech": "program_elective_required",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "半導体の物性、pn接合、トランジスタの動作原理と集積回路の基礎を学ぶ。",
+      "goal": "半導体デバイスの動作原理をエネルギーバンドの観点から説明できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12510010",
+    "subjectNumber": "12520010",
+    "name": "材料力学Ⅰ",
+    "instructors": [
+      "浅野 剛"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 4
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "西4-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "program_required",
+        "mech-tech": "program_required",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "program_required",
+        "mech-tech": "program_required",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "応力とひずみの概念、引張・圧縮・曲げ・ねじりを受ける部材の強度設計の基礎を学ぶ。",
+      "goal": "基本的な荷重条件下での部材の応力・変形を計算できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12510020",
+    "subjectNumber": "12520020",
+    "name": "熱力学Ⅰ",
+    "instructors": [
+      "川島 直人"
+    ],
+    "targetGrade": 2,
+    "term": "second",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 3
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "西4-301",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "program_required",
+        "mech-tech": "program_required",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "program_required",
+        "mech-tech": "program_required",
+        "da-design": "other_program",
+        "da-design-tech": "other_program",
+        "da-architecture": "other_program",
+        "da-architecture-tech": "other_program"
+      }
+    },
+    "syllabus": {
+      "outline": "熱力学の第一・第二法則、理想気体のサイクルと熱機関の効率を学ぶ。",
+      "goal": "熱力学の基本法則を用いて熱機関のサイクル解析ができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12510030",
+    "subjectNumber": "12520030",
+    "name": "機械設計製図",
+    "instructors": [
+      "浅野 剛",
+      "川島 直人"
+    ],
+    "targetGrade": 3,
+    "term": "full_year",
+    "slots": [
+      {
+        "day": "fri",
+        "period": 3
+      },
+      {
+        "day": "fri",
+        "period": 4
+      }
+    ],
+    "credits": 4,
+    "classFormat": "演習",
+    "room": "西4-101製図室",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "not_allowed",
+        "bio-tech": "not_allowed",
+        "chem-A": "not_allowed",
+        "chem-A-tech": "not_allowed",
+        "chem-B": "not_allowed",
+        "chem-B-tech": "not_allowed",
+        "chem-C": "not_allowed",
+        "chem-C-tech": "not_allowed",
+        "chem-D": "not_allowed",
+        "chem-D-tech": "not_allowed",
+        "elec": "not_allowed",
+        "elec-tech": "not_allowed",
+        "info": "not_allowed",
+        "info-tech": "not_allowed",
+        "mech": "program_required",
+        "mech-tech": "program_required",
+        "da-design": "not_allowed",
+        "da-design-tech": "not_allowed",
+        "da-architecture": "not_allowed",
+        "da-architecture-tech": "not_allowed"
+      },
+      "2025": {
+        "bio": "not_allowed",
+        "bio-tech": "not_allowed",
+        "chem-A": "not_allowed",
+        "chem-A-tech": "not_allowed",
+        "chem-B": "not_allowed",
+        "chem-B-tech": "not_allowed",
+        "chem-C": "not_allowed",
+        "chem-C-tech": "not_allowed",
+        "chem-D": "not_allowed",
+        "chem-D-tech": "not_allowed",
+        "elec": "not_allowed",
+        "elec-tech": "not_allowed",
+        "info": "not_allowed",
+        "info-tech": "not_allowed",
+        "mech": "program_required",
+        "mech-tech": "program_required",
+        "da-design": "not_allowed",
+        "da-design-tech": "not_allowed",
+        "da-architecture": "not_allowed",
+        "da-architecture-tech": "not_allowed"
+      }
+    },
+    "syllabus": {
+      "outline": "機械要素の設計計算とJIS製図法に基づく図面作成を、年間を通じた課題で習得する。",
+      "goal": "機械要素の設計計算を行い、規格に準拠した図面を作成できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": "PBL 実施科目",
+    "id": "12610010",
+    "subjectNumber": "12620010",
+    "name": "デザイン基礎演習",
+    "instructors": [
+      "桐山 文乃"
+    ],
+    "targetGrade": 1,
+    "term": "first",
+    "slots": [
+      {
+        "day": "wed",
+        "period": 3
+      },
+      {
+        "day": "wed",
+        "period": 4
+      }
+    ],
+    "credits": 2,
+    "classFormat": "演習",
+    "room": "創30",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "program_required",
+        "da-design-tech": "program_required",
+        "da-architecture": "program_elective_A",
+        "da-architecture-tech": "program_elective_A"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "program_required",
+        "da-design-tech": "program_required",
+        "da-architecture": "program_elective_A",
+        "da-architecture-tech": "program_elective_A"
+      }
+    },
+    "syllabus": {
+      "outline": "観察・スケッチ・モデリングなどデザインの基礎的手法を、課題制作を通じて習得する。",
+      "goal": "デザインの基礎的なプロセスを実践し、制作物としてまとめ発表できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12610020",
+    "subjectNumber": "12620020",
+    "name": "建築設計製図Ⅰ",
+    "instructors": [
+      "真田 啓介"
+    ],
+    "targetGrade": 2,
+    "term": "first",
+    "slots": [
+      {
+        "day": "tue",
+        "period": 3
+      },
+      {
+        "day": "tue",
+        "period": 4
+      }
+    ],
+    "credits": 2,
+    "classFormat": "演習",
+    "room": "創30",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "program_elective_A",
+        "da-design-tech": "program_elective_A",
+        "da-architecture": "program_required",
+        "da-architecture-tech": "program_required"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "program_elective_A",
+        "da-design-tech": "program_elective_A",
+        "da-architecture": "program_required",
+        "da-architecture-tech": "program_required"
+      }
+    },
+    "syllabus": {
+      "outline": "小規模建築物の設計課題を通じて、建築図面の表現技法と設計の基礎プロセスを学ぶ。",
+      "goal": "与えられた条件に基づいて小規模建築を設計し、図面と模型で表現できる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": false,
+    "attributes": null,
+    "id": "12610030",
+    "subjectNumber": "12620030",
+    "name": "建築構造力学Ⅰ",
+    "instructors": [
+      "真田 啓介"
+    ],
+    "targetGrade": 2,
+    "term": "second",
+    "slots": [
+      {
+        "day": "mon",
+        "period": 4
+      }
+    ],
+    "credits": 2,
+    "classFormat": "講義",
+    "room": "創30",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "program_elective_C",
+        "da-design-tech": "program_elective_C",
+        "da-architecture": "program_elective_B",
+        "da-architecture-tech": "program_elective_B"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "program_elective_C",
+        "da-design-tech": "program_elective_C",
+        "da-architecture": "program_elective_B",
+        "da-architecture-tech": "program_elective_B"
+      }
+    },
+    "syllabus": {
+      "outline": "静定構造物の反力・断面力の解析法を学び、建築構造設計の基礎を身につける。",
+      "goal": "静定梁・静定ラーメンの反力と断面力を計算し、応力図を描くことができる。"
+    }
+  },
+  {
+    "offeredThisYear": true,
+    "faculty": "工芸科学部",
+    "intensive": true,
+    "attributes": null,
+    "id": "12610040",
+    "subjectNumber": "12620040",
+    "name": "西洋建築史",
+    "instructors": [
+      "桐山 文乃"
+    ],
+    "targetGrade": 2,
+    "term": "second",
+    "slots": [],
+    "credits": 2,
+    "classFormat": "講義",
+    "categoryByProgram": {
+      "2024": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "program_elective_D",
+        "da-design-tech": "program_elective_D",
+        "da-architecture": "program_elective_D",
+        "da-architecture-tech": "program_elective_D"
+      },
+      "2025": {
+        "bio": "other_program",
+        "bio-tech": "other_program",
+        "chem-A": "other_program",
+        "chem-A-tech": "other_program",
+        "chem-B": "other_program",
+        "chem-B-tech": "other_program",
+        "chem-C": "other_program",
+        "chem-C-tech": "other_program",
+        "chem-D": "other_program",
+        "chem-D-tech": "other_program",
+        "elec": "other_program",
+        "elec-tech": "other_program",
+        "info": "other_program",
+        "info-tech": "other_program",
+        "mech": "other_program",
+        "mech-tech": "other_program",
+        "da-design": "program_elective_D",
+        "da-design-tech": "program_elective_D",
+        "da-architecture": "program_elective_D",
+        "da-architecture-tech": "program_elective_D"
+      }
+    },
+    "syllabus": {
+      "outline": "古代ギリシャから近代までの西洋建築の様式と思想の変遷を、集中講義形式で概観する。",
+      "goal": "西洋建築の主要な様式の特徴を時代背景とともに説明できる。"
+    }
+  }
+]

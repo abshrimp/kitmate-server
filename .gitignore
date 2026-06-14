@@ -1,0 +1,21 @@
+# 依存
+node_modules/
+
+# ビルド成果物
+dist/
+*.tsbuildinfo
+
+# ランタイムデータ (SQLite はサーバが生成・永続管理する。コミットしない)
+data/kitmate.db
+data/kitmate.db-wal
+data/kitmate.db-shm
+
+# 秘密情報 (.env.example のみ追跡)
+.env
+.env.*
+!.env.example
+
+# ログ / OS
+*.log
+npm-debug.*
+.DS_Store

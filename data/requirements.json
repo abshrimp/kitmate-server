@@ -1,0 +1,1858 @@
+[
+  {
+    "admissionYear": 2024,
+    "variantKey": "bio",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 12,
+      "basic_elective_required": 8,
+      "program_required": 26,
+      "graduation_research": 8,
+      "program_elective_required": 20
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 22,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "bio",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 8,
+      "basic_elective_required": 8,
+      "program_required": 22,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 18,
+      "specializedTotal": 82,
+      "grandTotal": 110
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "bio-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 12,
+      "basic_elective_required": 8,
+      "program_required": 16,
+      "graduation_research": 8,
+      "program_elective_required": 20
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 22,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "bio-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 8,
+      "basic_elective_required": 8,
+      "program_required": 14,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 18,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-A",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 26,
+      "basic_elective_required": 4,
+      "program_required": 20,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 30,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-A",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 20,
+      "basic_elective_required": 4,
+      "program_required": 16,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 24,
+      "specializedTotal": 84,
+      "grandTotal": 112
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-A-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 16,
+      "basic_elective_required": 4,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-A-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 12,
+      "basic_elective_required": 4,
+      "program_required": 12,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 16,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-B",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 26,
+      "basic_elective_required": 4,
+      "program_required": 20,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 30,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-B",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 20,
+      "basic_elective_required": 4,
+      "program_required": 16,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 24,
+      "specializedTotal": 84,
+      "grandTotal": 112
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-B-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 16,
+      "basic_elective_required": 4,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-B-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 12,
+      "basic_elective_required": 4,
+      "program_required": 12,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 16,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-C",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 26,
+      "basic_elective_required": 4,
+      "program_required": 20,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 30,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-C",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 20,
+      "basic_elective_required": 4,
+      "program_required": 16,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 24,
+      "specializedTotal": 84,
+      "grandTotal": 112
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-C-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 16,
+      "basic_elective_required": 4,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-C-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 12,
+      "basic_elective_required": 4,
+      "program_required": 12,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 16,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-D",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 26,
+      "basic_elective_required": 4,
+      "program_required": 20,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 30,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-D",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 20,
+      "basic_elective_required": 4,
+      "program_required": 16,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 24,
+      "specializedTotal": 84,
+      "grandTotal": 112
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-D-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 16,
+      "basic_elective_required": 4,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "chem-D-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 12,
+      "basic_elective_required": 4,
+      "program_required": 12,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 16,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "elec",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 7,
+      "basic_elective_required": 13,
+      "program_required": 24,
+      "graduation_research": 8,
+      "program_elective_required": 20
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "elec",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 7,
+      "basic_elective_required": 11,
+      "program_required": 20,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 18,
+      "specializedTotal": 84,
+      "grandTotal": 112
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "elec-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 7,
+      "basic_elective_required": 13,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 20
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "elec-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 7,
+      "basic_elective_required": 11,
+      "program_required": 12,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 18,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "info",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 4,
+      "basic_elective_required": 12,
+      "program_required": 24,
+      "graduation_research": 8,
+      "program_elective_required": 22
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 22,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "info",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 4,
+      "basic_elective_required": 12,
+      "program_required": 20,
+      "program_elective_required": 18
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 22,
+      "specializedTotal": 86,
+      "grandTotal": 114
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "info-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 4,
+      "basic_elective_required": 12,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 22
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 22,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "info-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 4,
+      "basic_elective_required": 12,
+      "program_required": 12,
+      "program_elective_required": 18
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 22,
+      "specializedTotal": 86,
+      "grandTotal": 114
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "mech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 7,
+      "basic_elective_required": 13,
+      "program_required": 26,
+      "graduation_research": 8,
+      "program_elective_required": 18
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "mech",
+    "kind": "research_start",
+    "minima": {
+      "english": 6,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 7,
+      "basic_elective_required": 11,
+      "program_required": 22,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 26,
+      "basicTotal": 18,
+      "specializedTotal": 84,
+      "grandTotal": 110
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "mech-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 7,
+      "basic_elective_required": 13,
+      "program_required": 16,
+      "graduation_research": 8,
+      "program_elective_required": 18
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "mech-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 6,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 7,
+      "basic_elective_required": 11,
+      "program_required": 14,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 26,
+      "basicTotal": 18,
+      "specializedTotal": 84,
+      "grandTotal": 110
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "da-design",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 0,
+      "basic_elective_required": 14,
+      "program_required": 28,
+      "graduation_research": 8,
+      "program_elective_A": 6,
+      "program_elective_B": 6,
+      "program_elective_C": 4,
+      "program_elective_ABC": 20,
+      "program_elective_D": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 14,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "da-design",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 0,
+      "basic_elective_required": 12,
+      "program_required": 24,
+      "program_elective_A": 4,
+      "program_elective_B": 4,
+      "program_elective_C": 2,
+      "program_elective_ABC": 14,
+      "program_elective_D": 2
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 12,
+      "specializedTotal": 76,
+      "grandTotal": 104
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "da-design-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 0,
+      "basic_elective_required": 14,
+      "program_required": 18,
+      "graduation_research": 8,
+      "program_elective_A": 6,
+      "program_elective_B": 6,
+      "program_elective_C": 4,
+      "program_elective_ABC": 20,
+      "program_elective_D": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 14,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "da-design-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 0,
+      "basic_elective_required": 12,
+      "program_required": 16,
+      "program_elective_A": 4,
+      "program_elective_B": 4,
+      "program_elective_C": 2,
+      "program_elective_ABC": 14,
+      "program_elective_D": 2
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 12,
+      "specializedTotal": 87,
+      "grandTotal": 115
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "da-architecture",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 0,
+      "basic_elective_required": 14,
+      "program_required": 30,
+      "graduation_research": 8,
+      "program_elective_A": 6,
+      "program_elective_B": 4,
+      "program_elective_C": 4,
+      "program_elective_ABC": 18,
+      "program_elective_D": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 14,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "da-architecture",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 0,
+      "basic_elective_required": 12,
+      "program_required": 26,
+      "program_elective_A": 4,
+      "program_elective_B": 2,
+      "program_elective_C": 2,
+      "program_elective_ABC": 12,
+      "program_elective_D": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 12,
+      "specializedTotal": 76,
+      "grandTotal": 104
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "da-architecture-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 0,
+      "basic_elective_required": 14,
+      "program_required": 20,
+      "graduation_research": 8,
+      "program_elective_A": 6,
+      "program_elective_B": 4,
+      "program_elective_C": 4,
+      "program_elective_ABC": 18,
+      "program_elective_D": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 14,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2024,
+    "variantKey": "da-architecture-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 0,
+      "basic_elective_required": 12,
+      "program_required": 18,
+      "program_elective_A": 4,
+      "program_elective_B": 2,
+      "program_elective_C": 2,
+      "program_elective_ABC": 12,
+      "program_elective_D": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 12,
+      "specializedTotal": 87,
+      "grandTotal": 115
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "bio",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 12,
+      "basic_elective_required": 8,
+      "program_required": 26,
+      "graduation_research": 8,
+      "program_elective_required": 20
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 22,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "bio",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 8,
+      "basic_elective_required": 8,
+      "program_required": 22,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 18,
+      "specializedTotal": 82,
+      "grandTotal": 110
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "bio-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 12,
+      "basic_elective_required": 8,
+      "program_required": 16,
+      "graduation_research": 8,
+      "program_elective_required": 20
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 22,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "bio-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 8,
+      "basic_elective_required": 8,
+      "program_required": 14,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 18,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-A",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 26,
+      "basic_elective_required": 4,
+      "program_required": 20,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 30,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-A",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 20,
+      "basic_elective_required": 4,
+      "program_required": 16,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 24,
+      "specializedTotal": 84,
+      "grandTotal": 112
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-A-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 16,
+      "basic_elective_required": 4,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-A-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 12,
+      "basic_elective_required": 4,
+      "program_required": 12,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 16,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-B",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 26,
+      "basic_elective_required": 4,
+      "program_required": 20,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 30,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-B",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 20,
+      "basic_elective_required": 4,
+      "program_required": 16,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 24,
+      "specializedTotal": 84,
+      "grandTotal": 112
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-B-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 16,
+      "basic_elective_required": 4,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-B-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 12,
+      "basic_elective_required": 4,
+      "program_required": 12,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 16,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-C",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 26,
+      "basic_elective_required": 4,
+      "program_required": 20,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 30,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-C",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 20,
+      "basic_elective_required": 4,
+      "program_required": 16,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 24,
+      "specializedTotal": 84,
+      "grandTotal": 112
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-C-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 16,
+      "basic_elective_required": 4,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-C-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 12,
+      "basic_elective_required": 4,
+      "program_required": 12,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 16,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-D",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 26,
+      "basic_elective_required": 4,
+      "program_required": 20,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 30,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-D",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 20,
+      "basic_elective_required": 4,
+      "program_required": 16,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 24,
+      "specializedTotal": 84,
+      "grandTotal": 112
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-D-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 16,
+      "basic_elective_required": 4,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 12,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "chem-D-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 12,
+      "basic_elective_required": 4,
+      "program_required": 12,
+      "program_elective_required": 10,
+      "program_elective_other_course": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 16,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "elec",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 7,
+      "basic_elective_required": 13,
+      "program_required": 24,
+      "graduation_research": 8,
+      "program_elective_required": 20
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "elec",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 7,
+      "basic_elective_required": 11,
+      "program_required": 20,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 18,
+      "specializedTotal": 84,
+      "grandTotal": 112
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "elec-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 7,
+      "basic_elective_required": 13,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 20
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "elec-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 7,
+      "basic_elective_required": 11,
+      "program_required": 12,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 18,
+      "specializedTotal": 91,
+      "grandTotal": 119
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "info",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 4,
+      "basic_elective_required": 12,
+      "program_required": 24,
+      "graduation_research": 8,
+      "program_elective_required": 22
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 22,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "info",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 4,
+      "basic_elective_required": 12,
+      "program_required": 20,
+      "program_elective_required": 18
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 22,
+      "specializedTotal": 86,
+      "grandTotal": 114
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "info-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 4,
+      "basic_elective_required": 12,
+      "program_required": 14,
+      "graduation_research": 8,
+      "program_elective_required": 22
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 22,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "info-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 4,
+      "basic_elective_required": 12,
+      "program_required": 12,
+      "program_elective_required": 18
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 22,
+      "specializedTotal": 86,
+      "grandTotal": 114
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "mech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 7,
+      "basic_elective_required": 13,
+      "program_required": 26,
+      "graduation_research": 8,
+      "program_elective_required": 18
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "mech",
+    "kind": "research_start",
+    "minima": {
+      "english": 6,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 7,
+      "basic_elective_required": 11,
+      "program_required": 22,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 26,
+      "basicTotal": 18,
+      "specializedTotal": 84,
+      "grandTotal": 110
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "mech-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 7,
+      "basic_elective_required": 13,
+      "program_required": 16,
+      "graduation_research": 8,
+      "program_elective_required": 18
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 20,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "mech-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 6,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 7,
+      "basic_elective_required": 11,
+      "program_required": 14,
+      "program_elective_required": 16
+    },
+    "groupTotals": {
+      "liberalTotal": 26,
+      "basicTotal": 18,
+      "specializedTotal": 84,
+      "grandTotal": 110
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "da-design",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 0,
+      "basic_elective_required": 14,
+      "program_required": 28,
+      "graduation_research": 8,
+      "program_elective_A": 6,
+      "program_elective_B": 6,
+      "program_elective_C": 4,
+      "program_elective_ABC": 20,
+      "program_elective_D": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 14,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "da-design",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 0,
+      "basic_elective_required": 12,
+      "program_required": 24,
+      "program_elective_A": 4,
+      "program_elective_B": 4,
+      "program_elective_C": 2,
+      "program_elective_ABC": 14,
+      "program_elective_D": 2
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 12,
+      "specializedTotal": 76,
+      "grandTotal": 104
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "da-design-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 0,
+      "basic_elective_required": 14,
+      "program_required": 18,
+      "graduation_research": 8,
+      "program_elective_A": 6,
+      "program_elective_B": 6,
+      "program_elective_C": 4,
+      "program_elective_ABC": 20,
+      "program_elective_D": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 14,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "da-design-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 0,
+      "basic_elective_required": 12,
+      "program_required": 16,
+      "program_elective_A": 4,
+      "program_elective_B": 4,
+      "program_elective_C": 2,
+      "program_elective_ABC": 14,
+      "program_elective_D": 2
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 12,
+      "specializedTotal": 87,
+      "grandTotal": 115
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "da-architecture",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 2,
+      "basic_required": 0,
+      "basic_elective_required": 14,
+      "program_required": 30,
+      "graduation_research": 8,
+      "program_elective_A": 6,
+      "program_elective_B": 4,
+      "program_elective_C": 4,
+      "program_elective_ABC": 18,
+      "program_elective_D": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 14,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "da-architecture",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 2,
+      "basic_required": 0,
+      "basic_elective_required": 12,
+      "program_required": 26,
+      "program_elective_A": 4,
+      "program_elective_B": 2,
+      "program_elective_C": 2,
+      "program_elective_ABC": 12,
+      "program_elective_D": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 12,
+      "specializedTotal": 76,
+      "grandTotal": 104
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "da-architecture-tech",
+    "kind": "graduation",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 10,
+      "liberal_senior": 2,
+      "intro_required": 3,
+      "basic_required": 0,
+      "basic_elective_required": 14,
+      "program_required": 20,
+      "graduation_research": 8,
+      "program_elective_A": 6,
+      "program_elective_B": 4,
+      "program_elective_C": 4,
+      "program_elective_ABC": 18,
+      "program_elective_D": 6
+    },
+    "groupTotals": {
+      "liberalTotal": 32,
+      "basicTotal": 14,
+      "specializedTotal": 92,
+      "grandTotal": 134
+    }
+  },
+  {
+    "admissionYear": 2025,
+    "variantKey": "da-architecture-tech",
+    "kind": "research_start",
+    "minima": {
+      "english": 8,
+      "liberal_foundation": 6,
+      "liberal_practical": 8,
+      "intro_required": 3,
+      "basic_required": 0,
+      "basic_elective_required": 12,
+      "program_required": 18,
+      "program_elective_A": 4,
+      "program_elective_B": 2,
+      "program_elective_C": 2,
+      "program_elective_ABC": 12,
+      "program_elective_D": 4
+    },
+    "groupTotals": {
+      "liberalTotal": 28,
+      "basicTotal": 12,
+      "specializedTotal": 87,
+      "grandTotal": 115
+    }
+  }
+]

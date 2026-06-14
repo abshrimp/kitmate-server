@@ -1,0 +1,22 @@
+services:
+  kitmate-server:
+    build: .
+    container_name: kitmate-server
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./data:/app/data
+    # 認証情報はリポジトリに直書きせず .env (KIT_USER_ID=... 等) に書いて読み込む
+    # (.env が無くても起動できるよう required: false。Compose v2.24+ で有効)
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - PORT=8787
+      # 以下は .env で設定する (env_file が優先。ここはドキュメント用):
+      # - KIT_USER_ID=b4xxxxxx                 # 休講取得用の学籍番号
+      # - KIT_PASSWORD=********                # そのパスワード
+      # - KIT_VPN_HOST=vpns.cis.kit.ac.jp      # SSL-VPN ホスト (既定値)
+      # - VAPID_SUBJECT=mailto:you@example.com # web-push の VAPID subject
+      # - PUSH_DISABLED=1                      # 休講 push 通知を無効化する場合
+    restart: unless-stopped
