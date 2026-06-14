@@ -172,18 +172,21 @@ docker compose up -d --build
 - ❌ **Full (strict)** は不可(オリジンが自己署名のため)。strict にしたいなら
   Cloudflare Origin Certificate を発行して Caddy に `tls cert.pem key.pem` で渡す
 
-### 5-3. ファイアウォール
+### 5-3. ファイアウォール(443 を Cloudflare 限定で開ける)
 
-443 を開ける(VM 作成時の `https-server` タグで開いていることが多い)。未設定なら:
+Cloudflare 経由で運用するので、443 は **Cloudflare の IP 範囲だけ**に許可してオリジンへの
+直接攻撃を遮断する(VM は IPv4 のみなので IPv4 範囲だけでよい。範囲は
+https://www.cloudflare.com/ips/ で最新を確認):
 
 ```bash
-gcloud compute firewall-rules create allow-https \
-  --allow=tcp:443 --target-tags=https-server --source-ranges=0.0.0.0/0
+gcloud compute firewall-rules create allow-https-cloudflare \
+  --allow=tcp:443 \
+  --target-tags=https-server \
+  --source-ranges=173.245.48.0/20,103.21.244.0/22,103.22.200.0/22,103.31.4.0/22,141.101.64.0/18,108.162.192.0/18,190.93.240.0/20,188.114.96.0/20,197.234.240.0/22,198.41.128.0/17,162.158.0.0/15,104.16.0.0/13,104.24.0.0/14,172.64.0.0/13,131.0.72.0/22
 ```
 
-> さらに堅くするなら、443 の `--source-ranges` を Cloudflare の IP 範囲
-> (https://www.cloudflare.com/ips/)に限定するとオリジンへの直アクセスを遮断できる。
-> 直アクセスを廃止するなら §2 の 8787 ルールも削除: `gcloud compute firewall-rules delete allow-kitmate`
+全開放でよいなら `--source-ranges=0.0.0.0/0` の 1 ルールでも可。
+直アクセスを廃止するなら §2 の 8787 ルールも削除: `gcloud compute firewall-rules delete allow-kitmate`
 
 ### 5-4. 起動
 
