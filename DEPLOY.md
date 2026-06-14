@@ -148,18 +148,55 @@ docker compose up -d --build
 
 ## 5. (推奨) HTTPS 化 — Caddy で自動 TLS
 
-ドメイン(例 `api.kitmate.jp`)の A レコードを VM の外部 IP に向けてから、リポジトリ直下に `Caddyfile` を作成:
+`Caddyfile` と `docker-compose.yml` の caddy サービス(`profiles: https`)はリポジトリに
+同梱済み。Caddy が Let's Encrypt 証明書を自動取得・更新する。
 
+### 5-1. DNS を設定
+
+使うドメイン(例 `api.kitmate.jp`)の **A レコードを VM の外部 IP に向ける**。
+外部 IP は次で確認:
+
+```bash
+gcloud compute instances describe kitmate-server --zone=us-west1-b \
+  --format='get(networkInterfaces[0].accessConfigs[0].natIP)'
 ```
-api.kitmate.jp {
-    reverse_proxy kitmate-server:8787
-}
+
+反映確認(VM 内 or 手元): `dig +short api.kitmate.jp` が VM の IP を返せば OK。
+
+### 5-2. ファイアウォール(80/443 を開ける)
+
+VM 作成時の `--tags=http-server,https-server` で default ネットワークなら 80/443 は
+既に開いていることが多い。未設定なら:
+
+```bash
+gcloud compute firewall-rules create allow-https \
+  --allow=tcp:80,tcp:443 --target-tags=https-server --source-ranges=0.0.0.0/0
 ```
 
-`docker-compose.yml` に caddy サービスを追加(80/443 公開)すれば Let's Encrypt 証明書が
-自動取得・更新される。HTTPS にする場合は §2 の 8787 ファイアウォールは不要。
+HTTPS のみ公開する場合、§2 で開けた 8787 のルールは削除してよい:
 
-> アプリ側は `app/app.json` の `expo.extra.apiBaseUrl` を `https://api.kitmate.jp` に変更する。
+```bash
+gcloud compute firewall-rules delete allow-kitmate
+```
+
+### 5-3. ドメインを書き換えて起動
+
+```bash
+cd ~/kitmate-server
+nano Caddyfile        # `api.kitmate.jp` を自分のドメインに変更
+docker compose --profile https up -d --build
+docker compose logs -f caddy
+```
+
+- `--profile https` を付けると caddy も起動する(付けないと従来どおりサーバのみ)。
+- 初回は証明書取得で十数秒かかる。`certificate obtained successfully` 等が出れば成功。
+- `https://<ドメイン>/api/health` が `{ "ok": true }` を返せば完了。
+- 以後の更新も `docker compose --profile https up -d --build`(`--profile` を毎回付ける)。
+
+### 5-4. アプリ側の向き先を変更
+
+`app/app.json` の `expo.extra.apiBaseUrl` を `https://api.kitmate.jp` に変更してビルドし直す
+(別リポジトリ `kitmate-app`)。`-c` でキャッシュクリア推奨。
 
 ---
 

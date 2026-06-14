@@ -20,3 +20,25 @@ services:
       # - VAPID_SUBJECT=mailto:you@example.com # web-push の VAPID subject
       # - PUSH_DISABLED=1                      # 休講 push 通知を無効化する場合
     restart: unless-stopped
+
+  # HTTPS 化用のリバースプロキシ (Let's Encrypt 自動取得)。
+  # profiles により通常の `docker compose up -d` では起動せず、
+  # `docker compose --profile https up -d` のときだけ起動する。
+  caddy:
+    image: caddy:2-alpine
+    container_name: kitmate-caddy
+    profiles: ["https"]
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data      # 証明書の永続化 (再起動で消えない)
+      - caddy_config:/config
+    depends_on:
+      - kitmate-server
+
+volumes:
+  caddy_data:
+  caddy_config:

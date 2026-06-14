@@ -1,0 +1,17 @@
+# Caddy リバースプロキシ設定。HTTPS (Let's Encrypt 証明書) を自動取得・更新する。
+# docker compose の caddy サービス (profiles: https) から読み込まれる。
+#
+# 使う前に:
+#   1. 下のドメインを自分のものに変更する (DNS A レコードを VM の外部 IP に向けておく)
+#   2. `docker compose --profile https up -d`
+
+{
+	# 証明書の期限通知などに使う連絡先 (任意だが推奨)
+	email tools@kitmate.jp
+}
+
+# ← 自分のドメインに変更する
+api.kitmate.jp {
+	# 同じ compose ネットワーク上の kitmate-server コンテナへ中継
+	reverse_proxy kitmate-server:8787
+}
