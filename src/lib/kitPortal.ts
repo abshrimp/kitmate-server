@@ -26,6 +26,15 @@ const USER_AGENT =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 ' +
   '(KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36';
 
+// KIT_DEBUG=1 でリダイレクト連鎖やページ内容を詳細ログ出力する (機微情報を含むため通常は無効)
+const DEBUG = process.env.KIT_DEBUG === '1';
+function dlog(...args: unknown[]): void {
+  if (DEBUG) console.log('[kitPortal:debug]', ...args);
+}
+function snippet(html: string, n = 600): string {
+  return html.replace(/\s+/g, ' ').trim().slice(0, n);
+}
+
 export function hasPortalCredentials(): boolean {
   return Boolean(process.env.KIT_USER_ID && process.env.KIT_PASSWORD);
 }
@@ -135,6 +144,7 @@ async function fetchFollow(
     const cookie = jar.header();
     const res = await rawRequest(method, url, cookie ? { ...headers, cookie } : headers, body);
     jar.setFromResponse(res.headers['set-cookie'] as string[] | undefined);
+    dlog(`${method} ${url} -> ${res.status} (${res.body.length} bytes)`);
 
     if (res.status >= 300 && res.status < 400) {
       const loc = headerString(res.headers['location']);
@@ -196,7 +206,11 @@ async function submitForm(
   success: boolean,
 ): Promise<HopResult> {
   const form = parseFirstForm(html);
-  if (!form) throw new Error('[kitPortal] expected an auto-submit form but found none');
+  if (!form) {
+    throw new Error(
+      `[kitPortal] expected an auto-submit form but found none at ${baseUrl}. page: ${snippet(html, 400)}`,
+    );
+  }
   const payload = { ...form.inputs };
   if (success) payload['shib_idp_ls_success.shib_idp_session_ss'] = 'true';
   const action = new URL(form.action || baseUrl, baseUrl).toString();
@@ -292,6 +306,7 @@ async function login(jar: CookieJar): Promise<string> {
   });
   const redirPart = loginRes.text.split('redir=')[1];
   if (!redirPart) throw new Error('[kitPortal] VPN login failed (no redir; check credentials)');
+  dlog('step1 redir =', redirPart.slice(0, 120));
 
   // 2. install URL → SVPNCOOKIE
   await fetchFollow(jar, `https://${VPN_HOST}${redirPart}`, {
@@ -309,10 +324,13 @@ async function login(jar: CookieJar): Promise<string> {
     throw new Error('[kitPortal] /remote/portal did not return JSON (session not established)');
   }
   if (!sid) throw new Error('[kitPortal] fgt_sslvpn_sid missing');
+  dlog('step3 sid obtained (len', sid.length, ')');
 
   // 4. プロキシ経由でポータルにアクセス → Shibboleth フローへ
   const targetUrl = proxyUrl(sid, 'lecture_cancellation');
   const nav = await fetchFollow(jar, targetUrl, { headers: browserHeaders() });
+  dlog('step4 nav final url =', nav.url, 'status', nav.status);
+  dlog('step4 nav page =', snippet(nav.text, 800));
 
   // 5. 中間フォームを自動送信 ×2 (shib_idp_ls の session 復元)
   const r2 = await submitForm(jar, nav.text, nav.url, true);
