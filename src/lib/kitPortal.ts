@@ -74,6 +74,7 @@ function rawRequest(
     const u = new URL(urlStr);
     const reqHeaders: Record<string, string> = {
       'accept-encoding': 'identity', // gzip を要求しない (自前で解凍しないため)
+      connection: 'close', // keep-alive 再利用での framing ズレ/ECONNRESET を避ける
       ...headers,
     };
     if (body !== undefined) reqHeaders['content-length'] = String(Buffer.byteLength(body));
@@ -87,6 +88,7 @@ function rawRequest(
         headers: reqHeaders,
         insecureHTTPParser: true,
         timeout: TIMEOUT_MS,
+        agent: false, // コネクションプールを使わず 1 リクエスト 1 コネクション
       },
       (res) => {
         const chunks: Buffer[] = [];
@@ -100,8 +102,8 @@ function rawRequest(
         );
       },
     );
-    req.on('error', reject);
-    req.on('timeout', () => req.destroy(new Error('[kitPortal] request timeout')));
+    req.on('error', (e) => reject(new Error(`[kitPortal] ${method} ${urlStr} failed: ${e.message}`)));
+    req.on('timeout', () => req.destroy(new Error(`[kitPortal] ${method} ${urlStr} timeout`)));
     if (body !== undefined) req.write(body);
     req.end();
   });
