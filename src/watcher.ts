@@ -6,18 +6,14 @@ import type { CancellationFeed, CancellationNotice, LectureNotice } from './type
 
 // 休講ウォッチャ: 1 分毎に休講フィードを取得し、前回スナップショットとの差分を
 // 休講通知 → cancellation 購読者 / 授業関連連絡 → notice 購読者 へ別々に push 通知する。
-// env PUSH_DISABLED=1 で無効化。「学部」以外(大学院等)は対象外。
+// env PUSH_DISABLED=1 で無効化。学部・大学院を問わず全件が対象。
 //
 // 差分キーは行番号 No に依存しない(新着挿入で No がずれても誤通知しない)。内容ベース:
 //   休講通知   = 科目名 + 休講年月日 + 曜日 + 時限 + 掲示年月日
 //   授業関連連絡 = 科目名 + 曜日 + 時限 + 分類 + 最終更新日
 
-const SNAPSHOT_KEY = 'cancellations.snapshot';
-const TARGET_FACULTY = '学部'; // 通知対象は学部のみ
-
-function isUndergrad(facultyLabel: string): boolean {
-  return facultyLabel.trim() === TARGET_FACULTY;
-}
+// v2: 学部のみ → 全件 に変更した際にベースラインを取り直す(移行時の一斉通知を防ぐ)ためキーを更新
+const SNAPSHOT_KEY = 'cancellations.snapshot.v2';
 
 function cancellationKey(n: CancellationNotice): string {
   return `c:${n.courseName}|${n.cancelledOn}|${n.dayLabel}|${n.periodLabel}|${n.postedAt}`;
@@ -75,9 +71,9 @@ export async function runWatcherTick(): Promise<void> {
     return;
   }
 
-  // 学部のみを対象に絞る(大学院等は通知しない)
-  const cancellations = feed.cancellations.filter((n) => isUndergrad(n.facultyLabel));
-  const notices = feed.notices.filter((n) => isUndergrad(n.facultyLabel));
+  // 全件が対象(学部・大学院を問わない)
+  const cancellations = feed.cancellations;
+  const notices = feed.notices;
 
   const previous = loadSnapshot();
   saveSnapshot(cancellations, notices);
