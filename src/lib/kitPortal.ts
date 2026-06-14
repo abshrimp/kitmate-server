@@ -39,27 +39,61 @@ export function hasPortalCredentials(): boolean {
   return Boolean(process.env.KIT_USER_ID && process.env.KIT_PASSWORD);
 }
 
-// ===== Cookie jar =====
-// 通信はすべて同一ホスト (vpns.cis.kit.ac.jp) 上で完結する (ポータル/IdP もプロキシ経由)
-// ため、ドメインを区別しない単純な name=value ストアで十分。
+// ===== Cookie jar (Path 対応) =====
+// 通信は同一ホスト (vpns.cis.kit.ac.jp) 上だが、プロキシが auth.cis.kit.ac.jp /
+// idp.cis.kit.ac.jp / portal.student.kit.ac.jp を別パスで多重化しており、各バックエンドが
+// 同名 Cookie (JSESSIONID 等) を別 Path で発行する。名前だけで管理すると上書きされ
+// セッションが壊れる (SAML 戻りで IdP が 500)。RFC6265 のパスマッチで分離する。
+interface StoredCookie {
+  name: string;
+  value: string;
+  path: string;
+}
 class CookieJar {
-  private jar = new Map<string, string>();
+  private jar = new Map<string, StoredCookie>(); // key: `${name}\n${path}`
 
-  setFromResponse(setCookie: string[] | undefined): void {
+  // RFC6265 §5.1.4 default-path
+  private static defaultPath(requestPath: string): string {
+    if (!requestPath.startsWith('/')) return '/';
+    const lastSlash = requestPath.lastIndexOf('/');
+    return lastSlash <= 0 ? '/' : requestPath.slice(0, lastSlash);
+  }
+
+  // RFC6265 §5.1.4 path-match
+  private static pathMatch(cookiePath: string, requestPath: string): boolean {
+    if (cookiePath === requestPath) return true;
+    if (!requestPath.startsWith(cookiePath)) return false;
+    return cookiePath.endsWith('/') || requestPath[cookiePath.length] === '/';
+  }
+
+  setFromResponse(setCookie: string[] | undefined, requestPath: string): void {
     for (const raw of setCookie ?? []) {
-      const pair = raw.split(';', 1)[0]?.trim();
+      const parts = raw.split(';');
+      const pair = parts[0]?.trim();
       if (!pair) continue;
       const eq = pair.indexOf('=');
       if (eq <= 0) continue;
       const name = pair.slice(0, eq).trim();
       const value = pair.slice(eq + 1).trim();
-      if (value === '' || value === 'deleted') this.jar.delete(name);
-      else this.jar.set(name, value);
+      let path = '';
+      for (const attr of parts.slice(1)) {
+        const ai = attr.indexOf('=');
+        const k = (ai < 0 ? attr : attr.slice(0, ai)).trim().toLowerCase();
+        if (k === 'path') path = ai < 0 ? '' : attr.slice(ai + 1).trim();
+      }
+      if (!path.startsWith('/')) path = CookieJar.defaultPath(requestPath);
+      const key = `${name}\n${path}`;
+      if (value === '' || value === 'deleted') this.jar.delete(key);
+      else this.jar.set(key, { name, value, path });
     }
   }
 
-  header(): string {
-    return [...this.jar.entries()].map(([k, v]) => `${k}=${v}`).join('; ');
+  header(requestPath: string): string {
+    return [...this.jar.values()]
+      .filter((c) => CookieJar.pathMatch(c.path, requestPath))
+      .sort((a, b) => b.path.length - a.path.length) // 長い path 優先 (RFC6265)
+      .map((c) => `${c.name}=${c.value}`)
+      .join('; ');
   }
 }
 
@@ -141,9 +175,10 @@ async function fetchFollow(
   let headers: Record<string, string> = { 'user-agent': USER_AGENT, ...(init.headers ?? {}) };
 
   for (let i = 0; i <= MAX_REDIRECTS; i++) {
-    const cookie = jar.header();
+    const reqPath = new URL(url).pathname;
+    const cookie = jar.header(reqPath);
     const res = await rawRequest(method, url, cookie ? { ...headers, cookie } : headers, body);
-    jar.setFromResponse(res.headers['set-cookie'] as string[] | undefined);
+    jar.setFromResponse(res.headers['set-cookie'] as string[] | undefined, reqPath);
     dlog(`${method} ${url} -> ${res.status} (${res.body.length} bytes)`);
 
     if (res.status >= 300 && res.status < 400) {
