@@ -98,11 +98,9 @@ export async function sendWebPushTo(row: PushSubscriptionRow, message: PushMessa
   }
 }
 
-/** 指定チャンネルの購読者へメッセージ群を配信 */
-export async function broadcastToChannel(channel: NotificationChannel, messages: PushMessage[]): Promise<void> {
-  if (messages.length === 0) return;
-  const rows = listSubscribers(channel);
-  if (rows.length === 0) return;
+/** 指定の購読者群へメッセージ群を配信 (Expo + web-push) */
+async function broadcast(rows: PushSubscriptionRow[], messages: PushMessage[]): Promise<void> {
+  if (messages.length === 0 || rows.length === 0) return;
 
   const expoTokens = rows
     .filter((r) => r.platform === 'expo' && r.token)
@@ -121,4 +119,17 @@ export async function broadcastToChannel(channel: NotificationChannel, messages:
       await sendWebPushTo(row, message);
     }
   }
+}
+
+/** 指定チャンネルの購読者へメッセージ群を配信 */
+export async function broadcastToChannel(channel: NotificationChannel, messages: PushMessage[]): Promise<void> {
+  await broadcast(listSubscribers(channel), messages);
+}
+
+/** 全 push 購読者へメッセージ群を配信 (運営お知らせ用) */
+export async function broadcastToAll(messages: PushMessage[]): Promise<void> {
+  const rows = db
+    .prepare('SELECT id, platform, token, endpoint, subscription FROM push_subscriptions')
+    .all() as PushSubscriptionRow[];
+  await broadcast(rows, messages);
 }
