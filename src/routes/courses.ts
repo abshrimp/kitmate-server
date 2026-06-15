@@ -3,10 +3,29 @@ import { loadCourses } from '../lib/data.js';
 import type { Course, Day } from '../types.js';
 
 // GET /api/courses?year=&q=&day=&period=&intensive=&grade=&term= → Course[]
+// GET /api/courses/years → { years: number[] } (講義データが存在する年度一覧)
 // GET /api/courses/:id → Course (404 あり)
 export const coursesRoutes = new Hono();
 
 const DAYS: readonly Day[] = ['mon', 'tue', 'wed', 'thu', 'fri'];
+
+/** 日本の年度 (4月始まり) */
+function currentAcademicYear(d = new Date()): number {
+  return d.getMonth() + 1 >= 4 ? d.getFullYear() : d.getFullYear() - 1;
+}
+
+/** 講義データが存在する年度。env COURSE_DATA_YEARS (カンマ区切り) があればそれ、無ければ現年度。 */
+function courseDataYears(): number[] {
+  const env = process.env.COURSE_DATA_YEARS;
+  if (env) {
+    const years = env
+      .split(',')
+      .map((s) => Number(s.trim()))
+      .filter((n) => Number.isInteger(n));
+    if (years.length > 0) return years;
+  }
+  return [currentAcademicYear()];
+}
 
 function parseBoolean(v: string | undefined): boolean | undefined {
   if (v === undefined) return undefined;
@@ -65,6 +84,10 @@ coursesRoutes.get('/', (c) => {
   }
 
   return c.json(courses);
+});
+
+coursesRoutes.get('/years', (c) => {
+  return c.json({ years: courseDataYears() });
 });
 
 coursesRoutes.get('/:id', (c) => {
